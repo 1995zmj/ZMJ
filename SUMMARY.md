@@ -21,6 +21,10 @@
 ## MarkDown
 
 * [数学公式](markdown/shu-xue-gong-shi.md)
-* [线性代数](xian-xing-dai-shu.md)
-* [三角函数](san-jiao-han-shu.md)
+
+## Math
+
+* [线性代数](math/xian-xing-dai-shu.md)
+* [三角函数](math/san-jiao-han-shu.md)
+* [线代](math/xian-dai.md)
 
