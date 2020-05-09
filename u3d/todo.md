@@ -36,3 +36,35 @@ RequireComponent
 
 return half4\(\_Color.r,\_Color.g,\_Color.b,color.a\);
 
+
+
+一.初级
+
+总体目标:掌握Unity4 现世代渲染技术理论与实践
+
+理论必读:《Unity Shader入门精要》
+
+理论选读:《3D数学基础：图形与游戏开发》
+
+二.中级
+
+总体目标:掌握Unity5 PBR前向渲染管线理论与实践
+
+理论必读:《Real-Time Rendering, Fourth Edition》
+
+理论选读:《光线跟踪算法技术》
+
+《微积分之屠龙宝刀倚天宝剑》
+
+三.高级
+
+总体目标:掌握Unity 2018 HDRenderLoop 次世代延迟渲染管线理论与实践
+
+理论必读:《物理渲染 从理论到实现（第2版） 》
+
+《全局光照技术》作者:秦春林 [http://thegibook.com](http://thegibook.com)
+
+理论选读:《实时阴影技术》
+
+《漫画傅里叶解析》
+
