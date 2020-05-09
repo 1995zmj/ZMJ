@@ -11,7 +11,8 @@
 * [编辑器](u3d/bian-ji-qi.md)
 * [ToDo](u3d/todo.md)
 * [版本控制](u3d/ban-ben-kong-zhi.md)
-* [Unity Shader](u3d/unity-shader.md)
+* [Unity Shader](u3d/unity-shader/README.md)
+  * [第5章](u3d/unity-shader/di-5-zhang.md)
 * [备忘录](u3d/bei-wang-lu.md)
 
 ## c\#
