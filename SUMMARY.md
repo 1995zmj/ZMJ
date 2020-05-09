@@ -4,6 +4,9 @@
 
 ## U3D
 
+* [IDE](u3d/ide.md)
+* [UI](u3d/ui.md)
+* [编辑器](u3d/bian-ji-qi.md)
 * [ToDo](u3d/todo.md)
 * [版本控制](u3d/ban-ben-kong-zhi.md)
 * [Unity Shader](u3d/unity-shader.md)
@@ -12,5 +15,4 @@
 ## c\#
 
 * [ToDo](c/todo.md)
-* [编辑器](bian-ji-qi.md)
 
