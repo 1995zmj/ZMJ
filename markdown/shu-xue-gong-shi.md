@@ -2,6 +2,8 @@
 
 [数学公式](https://juejin.im/post/5a6721bd518825733201c4a2) [数学公式1](http://blog.lisp4fun.com/2017/11/01/formula)
 
+https://blog.csdn.net/ip_v5/article/details/55189428
+
 向量  
 $$\vec{a}$$ 矩阵 $$\begin{matrix}1 & 2\\\\3 &4\end{matrix}$$
 
