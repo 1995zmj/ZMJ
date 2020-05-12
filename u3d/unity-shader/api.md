@@ -3,5 +3,7 @@
 |  |  |
 | :--- | :--- |
 | UNITY\_LIGHTM ODEL AMBIENT | 环境光的颜色和强 度信息。 |
-| saturate |  |
+| saturate | 截取在\[O, 1\) 范围内 |
+
+
 
