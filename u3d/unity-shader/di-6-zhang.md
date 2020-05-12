@@ -41,33 +41,35 @@
 
   $$c_{ambient}=g_{ambient}$$
 
-* 高光反射`specular` 发射方向
+  * 高光反射`specular` 发射方向
 
-  $$r = 2(\hat{n} \cdot I )\hat{n} - I$$
+    $$r = 2(\hat{n} \cdot I )\hat{n} - I$$
 
-  `Phong`模型
+    `Phong`模型
 
-  $$c_{spscular} = (c_{light} \cdot m_{specular})max(0,\hat{v}\cdot r)^{m_{gloss}}$$
+    $$c_{spscular} = (c_{light} \cdot m_{specular})max(0,\hat{v}\cdot r)^{m_{gloss}}$$
 
-  其中$$mgloss$$是材质的光泽度，也被称为反光度`shininess` 控制高光区域“亮点”有多宽 其中$$m_{specular}$$是光源的颜色和强度 `Blinn`模型 通过$$\hat{h}$$对$$\hat{v}$$和$$\hat{I}$$的去平均后再归一化得到的
+    其中$$mgloss$$是材质的光泽度，也被称为反光度`shininess` 控制高光区域“亮点”有多宽 其中$$m_{specular}$$是光源的颜色和强度 `Blinn`模型 通过$$\hat{h}$$对$$\hat{v}$$和$$\hat{I}$$的去平均后再归一化得到的
 
-  $$
-  \hat{h} 
-  = 
-  \frac 
-  {\hat{v} + I}
-  {
-    \begin{vmatrix}
-      \hat{v} + I
-    \end{vmatrix}
-  }
-  $$
+    $$
+    \hat{h} 
+    = 
+    \frac 
+    {\hat{v} + I}
+    {
+      \begin{vmatrix}
+        \hat{v} + I
+      \end{vmatrix}
+    }
+    $$
 
-  $$
-  c_{specular} = (c_{light} \cdot m_{specualr})\max(0,\hat{n}\cdot \hat{h})^{m_{gloss}}
-  $$
+    $$
+    c_{specular} = (c_{light} \cdot m_{specualr})\max(0,\hat{n}\cdot \hat{h})^{m_{gloss}}
+    $$
 
-  **逐像素还是逐顶点**
+    **逐像素还是逐顶点**
 
-  逐像素 ： Phong 着色 逐顶点 ：高洛德着色
+    逐像素 ： Phong 着色 
+
+  逐顶点 ：高洛德着色
 
