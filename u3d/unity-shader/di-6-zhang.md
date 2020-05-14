@@ -41,8 +41,7 @@
 
   $$c_{ambient}=g_{ambient}$$
 
-* 高光反射`specular` 
-  发射方向
+* 高光反射`specular` 发射方向
 
   $$r = 2(\hat{n} \cdot I )\hat{n} - I$$
 
@@ -70,6 +69,5 @@
 
 ### 逐像素还是逐顶点
 
-逐像素 ： Phong 着色 
-逐顶点 ：高洛德着色
+逐像素 ： Phong 着色 逐顶点 ：高洛德着色
 
