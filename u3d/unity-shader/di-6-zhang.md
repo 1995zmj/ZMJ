@@ -73,3 +73,7 @@
 逐像素 ： Phong 着色 
 逐顶点 ：高洛德着色
 
+# 是半兰伯特
+
+$$c_{diffuse} = (c_{light} \cdot m_diffuse)(\alpha(\hat{n}\cdot I) + \beta)$$
+
