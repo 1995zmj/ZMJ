@@ -14,7 +14,9 @@
 * [Unity Shader](u3d/unity-shader/README.md)
   * [API](u3d/unity-shader/api.md)
   * [第5章](u3d/unity-shader/di-5-zhang.md)
-  * [第6章](u3d/unity-shader/di-6-zhang.md)
+  * [第6章](u3d/unity-shader/di-6-zhang/README.md)
+    * [漫反射代码](u3d/unity-shader/di-6-zhang/man-fan-she-dai-ma.md)
+    * [高光反射代码](u3d/unity-shader/di-6-zhang/gao-guang-fan-she-dai-ma.md)
 * [备忘录](u3d/bei-wang-lu.md)
 
 ## c\#
