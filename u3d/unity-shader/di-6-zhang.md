@@ -1,7 +1,5 @@
 # 第6章
 
-## 第6章
-
 #### 光源
 
 在光学里，使用辐照度`irradiance`量化光。 对于平行光来说它的辐照度可通过计算在垂直于`l`的单位面积上单位时间内穿过的能拯来得到 我们可以使用光源方向`l`和表面法线`n`之间的夹角的余弦值来得到。 因为辐照度是和照射到物体表面时光线之间的距离$$d/\cos\theta$$成反比的，因此辐照度就和$$\cos\theta$$成正。$$\cos\theta$$可以使用光源方向`l`和表面法线`n`点积来得到。这就是使用点积来计算辐照度的由来。
@@ -25,50 +23,268 @@
 
 ### 标准光照模型
 
-* 自发光`emissive`
+#### 1. 自发光`emissive`
 
-  光线也可以直接由光源发射进入摄像机，而不需要经过任何物体的反射。标准光照模型使用自发光来计算这个部分的贡献度。通常在实时渲染中，自发光的表面往往并不会照亮周围的表面 也就是说 这个物体并不会被当成一个光源。它的计算也很简单，就是直接使用了该材质的自发光颜色：
+光线也可以直接由光源发射进入摄像机，而不需要经过任何物体的反射。标准光照模型使用自发光来计算这个部分的贡献度。通常在实时渲染中，自发光的表面往往并不会照亮周围的表面 也就是说 这个物体并不会被当成一个光源。它的计算也很简单，就是直接使用了该材质的自发光颜色：
 
-  $$c_{emissive}=m_{emissive}$$
+$$c_{emissive}=m_{emissive}$$
 
-* 环境光 在标准光照模型中，我们使用了一种被称为环境光的部分来近似模拟间接光照。环境光的计算非常简单，它通常是一个全局变量，即场景中的所有物体都使用这个环境光。下面的等式给出了计算环境光的部分$$c_{ambient}=g_{ambient}$$
-* 漫反射`diffuse` 慢反射 漫反射光照符合兰伯特定律 反射光线的强度与表面法线和光源方向之间夹角的余弦值成正比。公式如下：
+#### 2. 环境光 `ambient`
+在标准光照模型中，我们使用了一种被称为环境光的部分来近似模拟间接光照。环境光的计算非常简单，它通常是一个全局变量，即场景中的所有物体都使用这个环境光。下面的等式给出了计算环境光的部分
 
-  $$c_{diffuse}=(c_{light} \cdot m_{diffuse}) max(0, n \cdot I)$$
+$$c_{ambient}=g_{ambient}$$
 
-  n 表示法线 l 指向光源的单位矢量
+#### 3. 漫反射`diffuse` 
+漫反射光照符合`兰伯特定律` 反射光线的强度与表面法线和光源方向之间夹角的余弦值成正比。公式如下：
 
-* 高光反射`specular` 发射方向
+$$c_{diffuse}=(c_{light} \cdot m_{diffuse}) max(0, n \cdot I)$$
 
-  $$r = 2(\hat{n} \cdot I )\hat{n} - I$$
+> n 表示法线 l 指向光源的单位矢量
 
-  `Phong`模型
 
-  $$c_{spscular} = (c_{light} \cdot m_{specular})max(0,\hat{v}\cdot r)^{m_{gloss}}$$
+`半兰伯特光照模型`
 
-  其中$$mgloss$$是材质的光泽度，也被称为反光度`shininess` 控制高光区域“亮点”有多宽 其中$$m_{specular}$$是光源的颜色和强度 `Blinn`模型 通过$$\hat{h}$$对$$\hat{v}$$和$$\hat{I}$$的去平均后再归一化得到的
+$$c_{diffuse} = (c_{light} \cdot m_diffuse)(\alpha(\hat{n}\cdot I) + \beta)$$
 
-  $$
-  \hat{h} 
-  = 
-  \frac 
-  {\hat{v} + I}
-  {
-    \begin{vmatrix}
-      \hat{v} + I
-    \end{vmatrix}
-  }
-  $$
+#### 4. 高光反射`specular` 
 
-  $$
-  c_{specular} = (c_{light} \cdot m_{specualr})\max(0,\hat{n}\cdot \hat{h})^{m_{gloss}}
-  $$
+`Phong`模型
+
+ $$r = 2(\hat{n} \cdot I )\hat{n} - I$$
+
+ $$c_{spscular} = (c_{light} \cdot m_{specular})max(0,\hat{v}\cdot r)^{m_{gloss}}$$
+
+> 其中$$r$$是反射方向，$$mgloss$$是材质的光泽度，也被称为反光度`shininess` 控制高光区域“亮点”有多宽 其中$$m_{specular}$$是光源的颜色和强度
+
+
+`Blinn`模型 
+
+$$
+\hat{h} 
+= 
+\frac 
+{\hat{v} + I}
+{
+  \begin{vmatrix}
+    \hat{v} + I
+  \end{vmatrix}
+}
+$$
+
+$$
+c_{specular} = (c_{light} \cdot m_{specualr})\max(0,\hat{n}\cdot \hat{h})^{m_{gloss}}
+$$
+
+> 其中$$\hat{h}$$是对$$\hat{v}$$和$$\hat{I}$$的去平均后再归一化得到的
 
 #### 逐像素还是逐顶点
 
-逐像素 ： Phong 着色 逐顶点 ：高洛德着色
+给出了基本光照模型使用的数学公式，在哪里计算这些光照模型？
+1. 逐像素光照
+2. 逐顶点光照
 
-## 是半兰伯特
 
-$$c_{diffuse} = (c_{light} \cdot m_diffuse)(\alpha(\hat{n}\cdot I) + \beta)$$
+## 相关代码
+
+``` 
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/Chapter6_DiffuseVertexLevel" 
+{
+    
+    Properties
+    {
+        _Diffuse("DiffuseColor",Color) = (1.0,1.0,1.0,1.0)
+    }
+    
+    SubShader
+    {
+        Pass
+        {
+            //定义光照模式，只有正确定光照模式，才能得到一些Unity内置光照变量
+            Tags{"LightMode" = "ForwardBase"}
+        
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            //使用Unity的内置包含文件，使用其内置变量
+            #include "Lighting.cginc"
+        
+            //定义与属性相同类型和相同名称的变量
+            fixed4 _Diffuse;
+            //定义顶点着色器输入结构体
+            struct a2v {
+                float4 vertex:POSITION;
+                float3 normal:NORMAL;
+            };
+            //定义顶点着色器输出结构体（片元着色器输入结构体）
+            struct v2f {
+                float4 pos:SV_POSITION;
+                fixed3 color : COLOR;
+            };
+        
+            v2f vert(a2v v) {
+                v2f o;
+                o.pos = UnityObjectToClipPos(v.vertex);
+            
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
+                //通过模型到世界的转置逆矩阵计算得到世界空间内的顶点法向方向（v.normal存储的是模型空间内的顶点法线方向）
+                fixed3 worldNormal = normalize(mul(v.normal,(float3x3)unity_WorldToObject));
+                //得到世界空间内的光线方向
+                fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
+            
+                //根据Lambert定律计算漫反射 saturate函数将所得矢量或标量的值限定在[0,1]之间
+                fixed3 diffuse = _LightColor0.rgb*_Diffuse.rgb*saturate(dot(worldNormal,worldLight));
+            
+                o.color = diffuse + ambient;
+                return o;
+            }
+            
+            fixed4 frag(v2f i) :SV_Target{
+                return fixed4(i.color,1.0);
+            }
+        
+            ENDCG
+        }
+        
+    }
+    
+    Fallback"Diffuse"
+}  
+```
+
+```
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/Chapter6-DiffusePixelLevel" 
+{
+    
+    Properties
+    {
+        _Diffuse("DiffuseColor",Color) = (1.0,1.0,1.0,1.0)
+    }
+    
+    SubShader
+    {
+        Pass
+        {
+            //定义光照模式，只有正确定光照模式，才能得到一些Unity内置光照变量
+            Tags{"LightMode" = "ForwardBase"}
+        
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            //使用Unity的内置包含文件，使用其内置变量
+            #include "Lighting.cginc"
+        
+            //定义与属性相同类型和相同名称的变量
+            fixed4 _Diffuse;
+            //定义顶点着色器输入结构体
+            struct a2v {
+                float4 vertex:POSITION;
+                float3 normal:NORMAL;
+            };
+            //定义顶点着色器输出结构体（片元着色器输入结构体）
+            struct v2f {
+                float4 pos:SV_POSITION;
+                fixed3 worldNormal : TEXCOORD0;
+            };
+        
+            v2f vert(a2v v) {
+                v2f o;
+                o.pos = UnityObjectToClipPos(v.vertex);
+                //通过模型到世界的转置逆矩阵计算得到世界空间内的顶点法向方向（v.normal存储的是模型空间内的顶点法线方向）
+                o.worldNormal = UnityObjectToWorldNormal(v.normal);
+                return o;
+            }
+            
+            fixed4 frag(v2f i) :SV_Target{
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
+                fixed3 worldNormal = normalize(i.worldNormal);
+                fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
+            
+                //根据Lambert定律计算漫反射 saturate函数将所得矢量或标量的值限定在[0,1]之间
+                fixed3 diffuse = _LightColor0.rgb*_Diffuse.rgb*saturate(dot(worldNormal,worldLight));
+                fixed3 color = ambient + diffuse;
+                return fixed4(color,1.0);
+            }
+        
+            ENDCG
+        }
+        
+    }
+    
+    Fallback"Diffuse"
+}  
+```
+
+
+```
+// Upgrade NOTE: replaced '_World2Object' with 'unity_WorldToObject'
+// Upgrade NOTE: replaced 'mul(UNITY_MATRIX_MVP,*)' with 'UnityObjectToClipPos(*)'
+
+Shader "Custom/Chapter6-HalfLambert" 
+{
+    
+    Properties
+    {
+        _Diffuse("DiffuseColor",Color) = (1.0,1.0,1.0,1.0)
+    }
+    
+    SubShader
+    {
+        Pass
+        {
+            //定义光照模式，只有正确定光照模式，才能得到一些Unity内置光照变量
+            Tags{"LightMode" = "ForwardBase"}
+        
+            CGPROGRAM
+            #pragma vertex vert
+            #pragma fragment frag
+            //使用Unity的内置包含文件，使用其内置变量
+            #include "Lighting.cginc"
+        
+            //定义与属性相同类型和相同名称的变量
+            fixed4 _Diffuse;
+            //定义顶点着色器输入结构体
+            struct a2v {
+                float4 vertex:POSITION;
+                float3 normal:NORMAL;
+            };
+            //定义顶点着色器输出结构体（片元着色器输入结构体）
+            struct v2f {
+                float4 pos:SV_POSITION;
+                fixed3 worldNormal : TEXCOORD0;
+            };
+        
+            v2f vert(a2v v) {
+                v2f o;
+                o.pos = UnityObjectToClipPos(v.vertex);
+                //通过模型到世界的转置逆矩阵计算得到世界空间内的顶点法向方向（v.normal存储的是模型空间内的顶点法线方向）
+                o.worldNormal = UnityObjectToWorldNormal(v.normal);
+                return o;
+            }
+            
+            fixed4 frag(v2f i) :SV_Target{
+                fixed3 ambient = UNITY_LIGHTMODEL_AMBIENT.xyz;
+                fixed3 worldNormal = normalize(i.worldNormal);
+                fixed3 worldLight = normalize(_WorldSpaceLightPos0.xyz);
+            
+                //根据Lambert定律计算漫反射 saturate函数将所得矢量或标量的值限定在[0,1]之间
+                fixed halfLambert = dot(worldNormal, worldLight) *0.5 + 0.5;
+                fixed3 diffuse = _LightColor0.rgb*_Diffuse.rgb*halfLambert;
+                fixed3 color = ambient + diffuse;
+                return fixed4(color,1.0);
+            }
+        
+            ENDCG
+        }
+        
+    }
+    
+    Fallback"Diffuse"
+}  
+```
 
