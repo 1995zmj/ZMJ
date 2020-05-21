@@ -17,6 +17,7 @@
   * [第6章](u3d/unity-shader/di-6-zhang/README.md)
     * [漫反射代码](u3d/unity-shader/di-6-zhang/man-fan-she-dai-ma.md)
     * [高光反射代码](u3d/unity-shader/di-6-zhang/gao-guang-fan-she-dai-ma.md)
+  * [第7章](u3d/unity-shader/di-7-zhang.md)
 * [备忘录](u3d/bei-wang-lu.md)
 
 ## c\#
