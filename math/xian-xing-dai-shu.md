@@ -461,6 +461,5 @@ $$
 
 $$A\vec{v} = \gamma\vec{v}$$
 
-
 $$\det{(A - \gamma I)} = 0$$
 
