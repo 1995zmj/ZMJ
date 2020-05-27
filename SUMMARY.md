@@ -35,4 +35,5 @@
 * [线性代数](math/xian-xing-dai-shu.md)
 * [三角函数](math/san-jiao-han-shu.md)
 * [线代](math/xian-dai.md)
+* [个人经验](ge-ren-jing-yan.md)
 
