@@ -4,7 +4,7 @@
 
 ### 等待时间
 
-```text
+```csharp
 using System.Collections;
 using UnityEngine;
 
@@ -42,7 +42,7 @@ public class MyCoroutine : MonoBehaviour
 
 #### 等待其他协程结束
 
-```text
+```csharp
 using System.Collections;
 using UnityEngine;
 

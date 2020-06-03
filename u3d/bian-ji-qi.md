@@ -4,3 +4,11 @@
 
 \[RequireComponent\(typeof\(Rigidbody\)\)\] 添加需要的组件
 
+
+
+```text
+[ContextMenu("Show Childen")] // 右键可以调用函数
+```
+
+编辑器相关 Editor folder.
+

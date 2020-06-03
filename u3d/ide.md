@@ -2,5 +2,9 @@
 
 vscode
 
-c\# Debugger for Unity Unity Code Snippets ShaderlabVSCode\(Free\)
+c\# Debugger for Unity 
+
+Unity Code Snippets 
+
+ShaderlabVSCode\(Free\)
 
