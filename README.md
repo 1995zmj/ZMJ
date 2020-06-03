@@ -1,5 +1,7 @@
 # Initial page
 
+[**成长**](https://zhuanlan.zhihu.com/p/24424967)\*\*\*\*
+
 {% hint style="info" %}
 shader
 {% endhint %}
