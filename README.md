@@ -1,5 +1,13 @@
 # Initial page
 
+{% hint style="info" %}
+shader
+{% endhint %}
+
+{% hint style="info" %}
+3数学
+{% endhint %}
+
 未解决的问题
 
 * [ ] 切线空间相关问题
