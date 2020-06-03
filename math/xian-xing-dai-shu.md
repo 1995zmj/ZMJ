@@ -418,7 +418,7 @@ $$
 #### 几何意义
 
 $$
-\vec{v} \cdot \vec{w} 
+\vec{v} \times \vec{w} 
 
 = 
 
