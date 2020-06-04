@@ -463,3 +463,5 @@ $$A\vec{v} = \gamma\vec{v}$$
 
 $$\det{(A - \gamma I)} = 0$$
 
+## 点乘转叉乘
+
