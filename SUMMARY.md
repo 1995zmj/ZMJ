@@ -1,6 +1,7 @@
 # Table of contents
 
 * [Initial page](README.md)
+* [个人经验](ge-ren-jing-yan.md)
 
 ## U3D
 
@@ -33,8 +34,8 @@
 ## Math
 
 * [线性代数](math/xian-xing-dai-shu.md)
+* [罗德里格旋转](math/luo-de-li-ge-xuan-zhuan.md)
 * [三角函数](math/san-jiao-han-shu.md)
-* [个人经验](math/ge-ren-jing-yan.md)
 
 ## 编程技巧
 

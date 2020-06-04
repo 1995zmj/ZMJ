@@ -1,12 +1,4 @@
 # 个人经验
 
-* 判断是否相等的时候 常量放在前面
-* 判断字符串是空
-    string.IsNullOrEmpty(assetName)
+[https://zhuanlan.zhihu.com/p/24424967](https://zhuanlan.zhihu.com/p/24424967)
 
-* GetInstanceID
-
-* 泛型 
-
-* IComparable  比较
-    IComparer 排序

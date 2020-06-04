@@ -49,3 +49,13 @@ ref是有进有出，而out是只出不进
 
 闭包作用 接口作用
 
+
+
+
+
+```csharp
+// list 转 数组
+Vector3[] postions = new Vector3[3];
+path.ToArray()
+```
+
