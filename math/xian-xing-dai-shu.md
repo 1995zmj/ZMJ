@@ -392,6 +392,29 @@ $$
 
 $$v \cdot w = v^Tw$$
 
+### 定理
+
+$$P \cdot Q = Q \cdot P$$
+
+$$(a P) \cdot Q = a (Q \cdot P)$$
+
+$$P \cdot (Q + R) = P \cdot Q +  P \cdot R$$
+
+$$P \cdot P = 
+\begin{Vmatrix}
+    P
+\end{Vmatrix}^2
+$$
+
+$$P \cdot Q \leq
+\begin{Vmatrix}
+    P
+\end{Vmatrix}
+\begin{Vmatrix}
+    Q
+\end{Vmatrix}
+$$
+
 ### 叉积
 
 #### 运算
@@ -448,6 +471,22 @@ $$
 4. 叉乘方向用右手定则判定
 5. 点积与叉乘背后有着联系
 
+### 定理
+
+$$Q \times P = - (P \times Q) $$
+
+$$(a P) \times Q = a (P \times Q)$$
+
+$$P \times (Q + R) = P \times Q +  P \times R$$
+
+$$P \times P = 0 =
+<0,0,0>
+$$
+
+$$(P \times Q) \cdot R = (R \times P) \cdot Q = (Q \times R) \cdot P$$
+
+$$P \times (Q \times P) = P \times Q \times P = P^2Q - (P \cdot Q)P$$
+
 ## 基变换与相似矩阵
 
 主要是坐标的相互变换
@@ -472,10 +511,20 @@ $$\det{(A - \gamma I)} = 0$$
 
 [参考](https://www.cnblogs.com/monoSLAM/p/5349497.html)
 
-$$a \times b = \[a\]\_\times b =
+$$
+a \times b = [a]_\times b =
 
-\begin{bmatrix} 0 & -a\_3 & a\_2\ a\_3 & 0 & -a\_1\ -a\_2 & a\_1 & 0\ \end{bmatrix} \begin{bmatrix} b\_1 \ b\_2 \ b\_3 \ \end{bmatrix}
+\begin{bmatrix} 
+0 & -a_3 & a_2\\
+ a_3 & 0 & -a_1\\
+ -a_2 & a_1 & 0\\ 
+\end{bmatrix} 
 
+\begin{bmatrix} 
+b_1 \\ 
+b_2 \\
+b_3 \\
+\end{bmatrix}
 $$
 
 其中$$[a]_\times$$称为a向量的叉乘矩阵。

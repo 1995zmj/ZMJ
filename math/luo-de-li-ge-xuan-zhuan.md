@@ -6,6 +6,8 @@ $$R = \cos\theta I + (1-\cos\theta)nn^T + \sin\theta n^\times$$
 
 ![](https://zhaoxuhui.top/assets/images/blog/content/2018-11-16-01.png)
 
+矢量运算表达式
+
 假设$$k$$为单位向量
 
 $$v = v_\bot + v_\parallel$$
@@ -44,3 +46,44 @@ $$= \cos\theta v + (1 - \cos\theta)v_\parallel + \sin\theta(k \times v)$$
 
 $$= \cos\theta v + (1 - \cos\theta)(k \cdot v)k + \sin\theta(k \times v)$$
 
+
+
+推导矩阵运算形式
+
+$$K = k^\times$$
+
+$$ 
+K v = k \times v
+$$
+
+$$
+K^2 v = k \times (k \times v)
+$$
+
+$$
+v_\parallel = v + k \times(k \times v)
+$$
+
+$$
+v_rot= \cos\theta v + (1 - \cos\theta)(v + k \times (k \times v)) + \sin\theta(k \times v)
+$$
+
+$$
+v_rot= \cos\theta v + (1 - \cos\theta)v + (1 - \cos\theta)(k \times (k \times v)) + \sin\theta(k \times v)
+$$
+
+$$
+v_rot= \cos\theta v + (1 - \cos\theta)v + (1 - \cos\theta)K^2 v+ \sin\theta Kv
+$$
+
+$$
+v_rot= (\cos\theta  + (1 - \cos\theta) + (1 - \cos\theta)K^2 + \sin\theta K)v
+$$
+
+$$
+R= \cos\theta  + (1 - \cos\theta) + (1 - \cos\theta)K^2 + \sin\theta K
+$$
+
+$$
+K^2v = k \times (k \times v) = -(v - (k\cdot v)k) = (k \cdot v)k - v
+$$
