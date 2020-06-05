@@ -193,7 +193,7 @@ $$
 
 ### 矩阵乘法的几个运算律直观解释
 
-$$\text{不满足交换律} AB \neq BA$$ $$\text{满足乘法结合律} (AB)C = A(BC)$$ 
+$$\text{不满足交换律} AB \neq BA$$ $$\text{满足乘法结合律} (AB)C = A(BC)$$
 
 $$\text{左分配律} (A+B)C = AC+BC$$ $$\text{右分配律} C(A+B) = CA+CB$$
 
@@ -386,12 +386,11 @@ $$
 \cos(\theta)
 $$
 
--$$\vec{v}$$ 在 $$\vec{w}$$ 上的投影长度乘上 $$\vec{w}$$ 本身的长度；
--或者 $$\vec{w}$$ 在 $$\vec{v}$$ 上的投影长度乘上 $$\vec{v}$$ 本身的长度。
+-$$\vec{v}$$ 在 $$\vec{w}$$ 上的投影长度乘上 $$\vec{w}$$ 本身的长度； -或者 $$\vec{w}$$ 在 $$\vec{v}$$ 上的投影长度乘上 $$\vec{v}$$ 本身的长度。
 
 ### 转换
 
-$$ v \cdot w = v^Tw$$
+$$v \cdot w = v^Tw$$
 
 ### 叉积
 
@@ -468,24 +467,16 @@ $$
 $$A\vec{v} = \gamma\vec{v}$$
 
 $$\det{(A - \gamma I)} = 0$$
+
 ## 点乘转叉乘
 
 [参考](https://www.cnblogs.com/monoSLAM/p/5349497.html)
 
-$$a \times b = [a]_\times b = 
+$$a \times b = \[a\]\_\times b =
 
+\begin{bmatrix} 0 & -a\_3 & a\_2\ a\_3 & 0 & -a\_1\ -a\_2 & a\_1 & 0\ \end{bmatrix} \begin{bmatrix} b\_1 \ b\_2 \ b\_3 \ \end{bmatrix}
 
-\begin{bmatrix}
-    0    & -a_3 & a_2\\
-    a_3  & 0 & -a_1\\
-    -a_2 & a_1 & 0\\
-\end{bmatrix}
-\begin{bmatrix}
-    b_1    \\
-    b_2  \\
-    b_3 \\
-\end{bmatrix}
- $$
+$$
 
 其中$$[a]_\times$$称为a向量的叉乘矩阵。
 
