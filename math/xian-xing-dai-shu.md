@@ -398,14 +398,11 @@ $$P \cdot Q = Q \cdot P$$
 
 $$(a P) \cdot Q = a (Q \cdot P)$$
 
-$$P \cdot (Q + R) = P \cdot Q +  P \cdot R$$
+$$P \cdot (Q + R) = P \cdot Q + P \cdot R$$
 
-$$P \cdot P = 
-\begin{Vmatrix}
-    P
-\end{Vmatrix}^2
+$$P \cdot P = \begin{Vmatrix} P \end{Vmatrix}^2
+
 $$
-
 $$P \cdot Q \leq
 \begin{Vmatrix}
     P
@@ -473,17 +470,17 @@ $$
 
 ### 定理
 
-$$Q \times P = - (P \times Q) $$
+$$Q \times P = - (P \times Q)$$
 
 $$(a P) \times Q = a (P \times Q)$$
 
-$$P \times (Q + R) = P \times Q +  P \times R$$
+$$P \times (Q + R) = P \times Q + P \times R$$
 
 $$P \times P = 0 =
-<0,0,0>
-$$
 
-$$(P \times Q) \cdot R = (R \times P) \cdot Q = (Q \times R) \cdot P$$
+$$
+$$(P \times Q) \cdot R = (R \times P) \cdot Q = (Q \times R) \cdot P
+$$
 
 $$P \times (Q \times P) = P \times Q \times P = P^2Q - (P \cdot Q)P$$
 

@@ -46,13 +46,11 @@ $$= \cos\theta v + (1 - \cos\theta)v_\parallel + \sin\theta(k \times v)$$
 
 $$= \cos\theta v + (1 - \cos\theta)(k \cdot v)k + \sin\theta(k \times v)$$
 
-
-
 推导矩阵运算形式
 
 $$K = k^\times$$
 
-$$ 
+$$
 K v = k \times v
 $$
 
@@ -87,3 +85,4 @@ $$
 $$
 K^2v = k \times (k \times v) = -(v - (k\cdot v)k) = (k \cdot v)k - v
 $$
+
