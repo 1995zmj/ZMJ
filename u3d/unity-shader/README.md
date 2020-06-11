@@ -12,3 +12,7 @@
 
 [https://github.com/candycat1992/Unity\_Shaders\_Book](https://github.com/candycat1992/Unity_Shaders_Book)
 
+
+
+问题
+vertex tangent texcoord为什么是float4

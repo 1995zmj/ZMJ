@@ -237,7 +237,7 @@ a
 \det
 \begin{pmatrix}
 \begin{bmatrix}
-    e & f\\\\ 
+    e & f\\\\ d
     h & i
 \end{bmatrix}
 \end{pmatrix}
@@ -246,7 +246,7 @@ b
 \det
 \begin{pmatrix}
 \begin{bmatrix}
-    e & f\\\\ 
+    d & f\\\\ 
     g & i
 \end{bmatrix}
 \end{pmatrix}
