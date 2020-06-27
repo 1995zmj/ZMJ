@@ -412,6 +412,27 @@ $$P \cdot Q \leq
 \end{Vmatrix}
 $$
 
+[参考](https://www.cnblogs.com/bigmonkey/p/9897047.html)
+
+$$
+proj_QP = 
+
+\frac{1}{\begin{Vmatrix} Q \end{Vmatrix}^2}
+
+\begin{bmatrix}
+    Q_xQ_x & Q_xQ_y & Q_xQ_z\\
+    Q_yQ_x & Q_yQ_y & Q_yQ_z\\
+    Q_zQ_x & Q_zQ_y & Q_zQ_z\\
+\end{bmatrix}
+
+\begin{bmatrix}
+    P_x \\
+    P_y  \\
+    P_z \\
+\end{bmatrix}
+$$
+
+
 ### 叉积
 
 #### 运算
