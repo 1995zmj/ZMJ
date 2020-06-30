@@ -432,7 +432,6 @@ proj_QP =
 \end{bmatrix}
 $$
 
-
 ### 叉积
 
 #### 运算
