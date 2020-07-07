@@ -50,3 +50,11 @@ ScriptableObject
 
 
 
+
+
+```text
+[SerializeField] public AnimationCurve curve;
+```
+
+
+
