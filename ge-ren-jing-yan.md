@@ -1,6 +1,8 @@
 # 个人经验
 
-[https://zhuanlan.zhihu.com/p/24424967](https://zhuanlan.zhihu.com/p/24424967)
+{% embed url="https://zhuanlan.zhihu.com/p/24424967" %}
+
+[https://www.cnblogs.com/neverdie/p/How\_To\_Learn\_Unity3D.html](https://www.cnblogs.com/neverdie/p/How_To_Learn_Unity3D.html)
 
 加减要请求
 
