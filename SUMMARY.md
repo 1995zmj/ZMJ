@@ -44,3 +44,8 @@
 
 * [TODO](bian-cheng-ji-qiao/todo.md)
 
+---
+
+* [The Book of Shaders](the-book-of-shaders/README.md)
+  * [参开的数学公式](the-book-of-shaders/can-kai-de-shu-xue-gong-shi.md)
+
