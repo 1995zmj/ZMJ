@@ -27,6 +27,10 @@
   * [第7章](u3d/unity-shader/di-7-zhang.md)
 * [备忘录](u3d/bei-wang-lu.md)
 
+---
+
+* [版本控制](ban-ben-kong-zhi.md)
+
 ## c\#
 
 * [ToDo](c/todo.md)
