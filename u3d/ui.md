@@ -21,5 +21,5 @@
 img.GetComponent<RectTransform>().SetSizeWithCurrentAnchors(RectTransform.Axis.Horizontal, 100);
 ```
 
-
+[https://gameinstitute.qq.com/community/detail/128613](https://gameinstitute.qq.com/community/detail/128613)
 
