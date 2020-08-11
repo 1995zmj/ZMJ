@@ -55,5 +55,11 @@
   * [lib](the-book-of-shaders/lib.md)
   * [参开的数学公式](the-book-of-shaders/can-kai-de-shu-xue-gong-shi.md)
 * [算法](suan-fa/README.md)
+  * [KMP](suan-fa/kmp.md)
+  * [搜索](suan-fa/sou-suo.md)
+  * [排列组合](suan-fa/pai-lie-zu-he.md)
+  * [最短路径](suan-fa/zui-duan-lu-jing.md)
+  * [查找](suan-fa/cha-zhao.md)
+  * [并查集](suan-fa/bing-cha-ji.md)
   * [排序](suan-fa/untitled.md)
 
