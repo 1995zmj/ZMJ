@@ -40,7 +40,7 @@
   * [协程](u3d-1/xie-cheng.md)
 * [The Book of Shaders](the-book-of-shaders/README.md)
   * [lib](the-book-of-shaders/lib.md)
-  * [Untitled](the-book-of-shaders/untitled.md)
+  * [函数](the-book-of-shaders/untitled.md)
   * [参开的数学公式](the-book-of-shaders/can-kai-de-shu-xue-gong-shi.md)
 * [设计模式](she-ji-mo-shi/README.md)
   * [TODO](she-ji-mo-shi/todo.md)
