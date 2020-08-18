@@ -1,6 +1,6 @@
 # lib
 
-
+[https://thebookofshaders.com/glossary/](https://thebookofshaders.com/glossary/)
 
 ```text
 float box(in vec2 _st, vec2 _size){
