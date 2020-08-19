@@ -1,6 +1,12 @@
 # 函数
 
 ```text
+float aastep(float threshold, float value) {
+	return smoothstep(threshold-0.005,threshold+0.005, value);
+}
+```
+
+```text
 float circleSDF(vec2 st) {
     return length(st-.5)*2.;
 }
@@ -8,7 +14,7 @@ float circleSDF(vec2 st) {
 
 ```text
 float stroke(float x, float size, float w) {
-    float d = smoothstep(size-0.005,size+0.005, x+w*.5) - smoothstep(size-0.005,size+0.005, x-w*.5);
+    float d = aastep(size,x+w*.5) - aastep(size, x-w*.5);
     return d;
 }
 ```
