@@ -44,6 +44,7 @@
   * [函数](the-book-of-shaders/untitled.md)
   * [参开的数学公式](the-book-of-shaders/can-kai-de-shu-xue-gong-shi.md)
 * [设计模式](she-ji-mo-shi/README.md)
+  * [Untitled](she-ji-mo-shi/untitled.md)
   * [TODO](she-ji-mo-shi/todo.md)
 
 ## MarkDown
@@ -55,4 +56,9 @@
 * [线性代数](math/xian-xing-dai-shu.md)
 * [罗德里格旋转](math/luo-de-li-ge-xuan-zhuan.md)
 * [三角函数](math/san-jiao-han-shu.md)
+
+---
+
+* [GAMES101:现代计算机图形学入门](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/README.md)
+  * [搭建环境](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/da-jian-huan-jing.md)
 
