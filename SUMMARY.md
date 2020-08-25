@@ -16,6 +16,7 @@
   * [C\# Linq](c-1/c-linq.md)
   * [ToDo](c-1/todo.md)
 * [U3D](u3d-1/README.md)
+  * [Shader应用](u3d-1/shader-ying-yong.md)
   * [Addressable Assets System](u3d-1/addressable-assets-system.md)
   * [版本控制](u3d-1/ban-ben-kong-zhi-1.md)
   * [备忘录](u3d-1/bei-wang-lu.md)
