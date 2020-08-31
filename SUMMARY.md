@@ -62,6 +62,7 @@
 ---
 
 * [GAMES101:现代计算机图形学入门](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/README.md)
+  * [Bresenham](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/bresenham.md)
   * [搭建环境](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/da-jian-huan-jing.md)
 * [四元](si-yuan.md)
 
