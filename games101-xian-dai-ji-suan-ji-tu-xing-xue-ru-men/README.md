@@ -8,5 +8,13 @@
 
 {% embed url="https://me.csdn.net/qq\_36242312" %}
 
+Fundamentals of Computer Graphics
+
+Real-Time Rendering
+
+OpenGL Programming Guide: The Official Guide to Learning OpenGl
+
+Ray Tracing Gems
+
 
 
