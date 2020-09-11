@@ -55,7 +55,8 @@
 
 ## Math
 
-* [线性代数](math/xian-xing-dai-shu.md)
+* [线性代数](math/xian-xing-dai-shu/README.md)
+  * [克拉默法则](math/xian-xing-dai-shu/ke-la-mo-fa-ze.md)
 * [罗德里格旋转](math/luo-de-li-ge-xuan-zhuan.md)
 * [三角函数](math/san-jiao-han-shu.md)
 
