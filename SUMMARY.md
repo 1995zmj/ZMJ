@@ -63,6 +63,7 @@
 ---
 
 * [GAMES101:现代计算机图形学入门](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/README.md)
+  * [斯涅尔定律 求折射方向](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/si-nie-er-ding-lv-qiu-zhe-she-fang-xiang.md)
   * [重心坐标\(barycentric coordinates\)](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/zhong-xin-zuo-biao-barycentric-coordinates.md)
   * [Bresenham](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/bresenham.md)
   * [Möller Trumbore](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/moeller-trumbore.md)
