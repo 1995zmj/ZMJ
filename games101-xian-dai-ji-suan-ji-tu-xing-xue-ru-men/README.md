@@ -12,7 +12,7 @@ Fundamentals of Computer Graphics
 
 Real-Time Rendering
 
-OpenGL Programming Guide: The Official Guide to Learning OpenGl
+OpenGL **Programming** Guide: The Official Guide to Learning OpenGl
 
 Ray Tracing Gems
 
