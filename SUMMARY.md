@@ -70,4 +70,5 @@
   * [SAH](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/sah.md)
   * [搭建环境](games101-xian-dai-ji-suan-ji-tu-xing-xue-ru-men/da-jian-huan-jing.md)
 * [四元](si-yuan.md)
+* [GAMES102:几何建模与处理](games102-ji-he-jian-mo-yu-chu-li.md)
 
