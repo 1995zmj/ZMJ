@@ -1,0 +1,100 @@
+{
+  "main": {
+    "id": "d2f6e4af4f5c05c8",
+    "type": "split",
+    "children": [
+      {
+        "id": "d358cfb31b0c16c6",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "TheBookOfShaders/函数积累.md",
+            "mode": "preview"
+          }
+        },
+        "group": "a846621952bd2d4a"
+      },
+      {
+        "id": "3f2512e5dcdd47cb",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "TheBookOfShaders/函数积累.md",
+            "mode": "source"
+          }
+        },
+        "group": "a846621952bd2d4a"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "f9ca4f4d97088339",
+    "type": "split",
+    "children": [
+      {
+        "id": "a1654035da978953",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "09886b1682852f26",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "e6d2cb48a424d5a8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "9693ea8741a3b2c4",
+    "type": "split",
+    "children": [
+      {
+        "id": "6a9dfa01937c8b56",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "62e7782baf76a6bb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "TheBookOfShaders/函数积累.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "lastOpenFiles": [
+    "TheBookOfShaders/函数积累.md",
+    "算法/排序组合.md",
+    "算法/算法.md",
+    "Untitled.md",
+    "算法/Untitled.md",
+    "TheBookOfShaders/Shaders学习.md",
+    "[[函数积累]].md",
+    "TheBookOfShaders/Untitled.md"
+  ]
+}
