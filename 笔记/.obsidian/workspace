@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheBookOfShaders/函数积累.md",
+            "file": "Games101/Games101.md",
             "mode": "preview"
           }
         },
@@ -22,7 +22,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "TheBookOfShaders/函数积累.md",
+            "file": "Games101/Games101.md",
             "mode": "source"
           }
         },
@@ -77,7 +77,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "TheBookOfShaders/函数积累.md"
+                "file": "Games101/Games101.md"
               }
             }
           }
@@ -88,13 +88,15 @@
     "width": 300
   },
   "lastOpenFiles": [
-    "TheBookOfShaders/函数积累.md",
-    "算法/排序组合.md",
-    "算法/算法.md",
+    "Games101/Games101.md",
+    "Games101/Bresenham直线算法.md",
     "Untitled.md",
-    "算法/Untitled.md",
-    "TheBookOfShaders/Shaders学习.md",
-    "[[函数积累]].md",
-    "TheBookOfShaders/Untitled.md"
+    "U3D/UGUI/TextMeshPro.md",
+    "U3D/UGUI/UGUI.md",
+    "TheBookOfShaders/函数积累.md",
+    "U3D/UGUI/Untitled.md",
+    "U3D/UGUI 1.md",
+    "U3D/UGUI.md",
+    "U3D/Untitled.md"
   ]
 }
