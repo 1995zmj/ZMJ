@@ -14,3 +14,11 @@
 ## 作业1
 [[Bresenham直线算法]]
 [透视投影推导](https://blog.csdn.net/qq_36242312/article/details/105694927)
+
+## 作业2
+MSAA
+点在三角形内
+
+## 作业3
+[三角形重心](https://zhuanlan.zhihu.com/p/144360079)
+
