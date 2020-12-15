@@ -4,29 +4,48 @@
     "type": "split",
     "children": [
       {
-        "id": "d358cfb31b0c16c6",
-        "type": "leaf",
-        "state": {
-          "type": "markdown",
-          "state": {
-            "file": "Games101/Games101.md",
-            "mode": "preview"
+        "id": "40df89468d420ec5",
+        "type": "split",
+        "children": [
+          {
+            "id": "fb9aed3b81002685",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "graph",
+              "state": {},
+              "pinned": true
+            }
+          },
+          {
+            "id": "4e05736c2f184207",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Untitled.md",
+                "mode": "source"
+              }
+            },
+            "group": "e1a49305d705424b"
           }
-        },
-        "group": "a846621952bd2d4a"
+        ],
+        "direction": "horizontal"
       },
       {
-        "id": "3f2512e5dcdd47cb",
+        "id": "e3c42404d7b52953",
         "type": "leaf",
-        "active": true,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Games101/Games101.md",
-            "mode": "source"
-          }
+            "file": "Untitled.md",
+            "mode": "preview"
+          },
+          "pinned": true
         },
-        "group": "a846621952bd2d4a"
+        "group": "e1a49305d705424b"
       }
     ],
     "direction": "vertical"
@@ -53,7 +72,12 @@
             "state": {
               "type": "search",
               "state": {
-                "query": ""
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
               }
             }
           }
@@ -77,7 +101,12 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Games101/Games101.md"
+                "file": "Untitled.md",
+                "collapseAll": false,
+                "extraContext": true,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
               }
             }
           }
@@ -88,15 +117,15 @@
     "width": 300
   },
   "lastOpenFiles": [
+    "Untitled.md",
+    "设计模式/Untitled.md",
+    "算法/排序组合.md",
+    "算法/算法问题.md",
     "Games101/Games101.md",
     "Games101/Bresenham直线算法.md",
-    "Untitled.md",
-    "U3D/UGUI/TextMeshPro.md",
-    "U3D/UGUI/UGUI.md",
-    "TheBookOfShaders/函数积累.md",
-    "U3D/UGUI/Untitled.md",
-    "U3D/UGUI 1.md",
-    "U3D/UGUI.md",
-    "U3D/Untitled.md"
+    "U3D/插件/插件.md",
+    "U3D/插件/Odin插件.md",
+    "U3D/插件/UniRx.md",
+    "U3D/U3D.md"
   ]
 }
