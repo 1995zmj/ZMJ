@@ -1,0 +1,96 @@
+{
+  "main": {
+    "id": "4dc1a118b70fa9a0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c776f59e7bd2f6b7",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e55c945c7a9446f5",
+    "type": "split",
+    "children": [
+      {
+        "id": "425ded6714380a32",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "988c53cc5b2f0323",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "0db4b4b1eaeb1f7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "0b55ad2dcc300d66",
+    "type": "split",
+    "children": [
+      {
+        "id": "bc5ce83b2c038c43",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3f2fdb982dfd07a8",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 477,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "c#/TODO.md",
+    "c-1/todo.md",
+    "c#/Untitled.md",
+    "c-1/README.md",
+    "c-1/c-linq.md",
+    "c-1/c-fan-she-ji-zhi.md",
+    "SUMMARY.md",
+    "games102-ji-he-jian-mo-yu-chu-li.md",
+    "c++.md",
+    "bian-ji-qi.md"
+  ]
+}

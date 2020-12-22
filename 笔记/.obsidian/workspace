@@ -41,7 +41,7 @@
           "type": "markdown",
           "state": {
             "file": "Untitled.md",
-            "mode": "preview"
+            "mode": "source"
           },
           "pinned": true
         },
@@ -118,14 +118,14 @@
   },
   "lastOpenFiles": [
     "Untitled.md",
-    "设计模式/Untitled.md",
-    "算法/排序组合.md",
-    "算法/算法问题.md",
-    "Games101/Games101.md",
-    "Games101/Bresenham直线算法.md",
+    "U3D/U3D.md",
+    "U3D/UGUI/TextMeshPro.md",
     "U3D/插件/插件.md",
     "U3D/插件/Odin插件.md",
     "U3D/插件/UniRx.md",
-    "U3D/U3D.md"
+    "U3D/UGUI/UGUI和特效的层级关系.md",
+    "U3D/UGUI/UGUI.md",
+    "U3D/UGUI/Untitled.md",
+    "算法/算法问题.md"
   ]
 }
