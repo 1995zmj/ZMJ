@@ -21,11 +21,10 @@
           {
             "id": "4e05736c2f184207",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/线性代数.md",
+                "file": "Games101/Games101.md",
                 "mode": "source"
               }
             },
@@ -38,11 +37,12 @@
         "id": "e3c42404d7b52953",
         "type": "leaf",
         "dimension": 71.28205128205128,
+        "active": true,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数学/线性代数.md",
+            "file": "Games101/Games101.md",
             "mode": "preview"
           },
           "pinned": true
@@ -103,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/线性代数.md",
+                "file": "Games101/Games101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +128,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "数学/线性代数.md",
     "Games101/Games101.md",
+    "算法/算法.md",
+    "数学/线性代数.md",
     "Games101/Bresenham直线算法.md",
     "Untitled.md",
     "U3D/UGUI/UGUI.md",
     "U3D/UGUI/TextMeshPro.md",
     "U3D/插件/UniRx.md",
     "U3D/插件/Odin插件.md",
-    "U3D/插件/插件.md",
-    "TheBookOfShaders/函数积累.md"
+    "U3D/插件/插件.md"
   ]
 }
