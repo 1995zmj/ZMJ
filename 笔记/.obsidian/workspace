@@ -6,6 +6,7 @@
       {
         "id": "40df89468d420ec5",
         "type": "split",
+        "dimension": 28.717948717948715,
         "children": [
           {
             "id": "fb9aed3b81002685",
@@ -20,11 +21,10 @@
           {
             "id": "4e05736c2f184207",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Untitled.md",
+                "file": "Games101/Games101.md",
                 "mode": "source"
               }
             },
@@ -36,12 +36,14 @@
       {
         "id": "e3c42404d7b52953",
         "type": "leaf",
+        "dimension": 71.28205128205128,
+        "active": true,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Untitled.md",
-            "mode": "source"
+            "file": "Games101/Games101.md",
+            "mode": "preview"
           },
           "pinned": true
         },
@@ -101,31 +103,40 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Untitled.md",
+                "file": "Games101/Games101.md",
                 "collapseAll": false,
-                "extraContext": true,
+                "extraContext": false,
                 "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "backlinkCollapsed": true,
+                "unlinkedCollapsed": true
               }
+            }
+          },
+          {
+            "id": "9a3e9224064645ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "lastOpenFiles": [
+    "Games101/Games101.md",
+    "算法/算法.md",
+    "数学/线性代数.md",
+    "Games101/Bresenham直线算法.md",
     "Untitled.md",
-    "U3D/U3D.md",
-    "U3D/UGUI/TextMeshPro.md",
-    "U3D/插件/插件.md",
-    "U3D/插件/Odin插件.md",
-    "U3D/插件/UniRx.md",
-    "U3D/UGUI/UGUI和特效的层级关系.md",
     "U3D/UGUI/UGUI.md",
-    "U3D/UGUI/Untitled.md",
-    "算法/算法问题.md"
+    "U3D/UGUI/TextMeshPro.md",
+    "U3D/插件/UniRx.md",
+    "U3D/插件/Odin插件.md",
+    "U3D/插件/插件.md"
   ]
 }
