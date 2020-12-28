@@ -5,7 +5,7 @@
 
 [主页作业](http://games-cn.org/forums/topic/allhw/)
 
-[参考笔记1](https://www.notion.so/Lec-03-04-Transformation-1045438fa67a4734951e7da9f48b1f18)
+[参考笔记1](https://www.notion.so/GAMES101-b0e27c856cde429b8672671a54c34817)
 
 [参考笔记2](https://www.codenong.com/cs107006010/)
 
@@ -21,4 +21,3 @@ MSAA
 
 ## 作业3
 [三角形重心](https://zhuanlan.zhihu.com/p/144360079)
-
