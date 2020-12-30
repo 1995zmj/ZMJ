@@ -6,11 +6,12 @@
       {
         "id": "40df89468d420ec5",
         "type": "split",
-        "dimension": 28.717948717948715,
+        "dimension": 62.19081272084805,
         "children": [
           {
             "id": "fb9aed3b81002685",
             "type": "leaf",
+            "active": true,
             "pinned": true,
             "state": {
               "type": "graph",
@@ -24,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Games101/Games101.md",
+                "file": "算法/README.md",
                 "mode": "source"
               }
             },
@@ -36,13 +37,12 @@
       {
         "id": "e3c42404d7b52953",
         "type": "leaf",
-        "dimension": 71.28205128205128,
-        "active": true,
+        "dimension": 37.80918727915194,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "Games101/Games101.md",
+            "file": "算法/README.md",
             "mode": "preview"
           },
           "pinned": true
@@ -103,7 +103,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Games101/Games101.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +127,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "Games101/Games101.md",
-    "算法/算法.md",
+    "算法/README.md",
+    "算法/算法问题.md",
+    "算法/数据结构/并查集.md",
     "数学/线性代数.md",
-    "Games101/Bresenham直线算法.md",
-    "Untitled.md",
-    "U3D/UGUI/UGUI.md",
-    "U3D/UGUI/TextMeshPro.md",
+    "数学/README.md",
+    "算法/算法.md",
+    "算法/排序组合.md",
+    "设计模式/Untitled.md",
     "U3D/插件/UniRx.md",
-    "U3D/插件/Odin插件.md",
-    "U3D/插件/插件.md"
+    "U3D/插件/Odin插件.md"
   ]
 }
