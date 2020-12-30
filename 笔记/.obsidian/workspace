@@ -6,12 +6,11 @@
       {
         "id": "40df89468d420ec5",
         "type": "split",
-        "dimension": 62.19081272084805,
+        "dimension": 70.33033033033033,
         "children": [
           {
             "id": "fb9aed3b81002685",
             "type": "leaf",
-            "active": true,
             "pinned": true,
             "state": {
               "type": "graph",
@@ -20,16 +19,35 @@
             }
           },
           {
-            "id": "4e05736c2f184207",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "算法/README.md",
-                "mode": "source"
+            "id": "aa156eeccf1b07eb",
+            "type": "split",
+            "children": [
+              {
+                "id": "4e05736c2f184207",
+                "type": "leaf",
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "数学/线性代数.md",
+                    "mode": "source"
+                  }
+                },
+                "group": "e1a49305d705424b"
+              },
+              {
+                "id": "9a6d0b954d15fd0a",
+                "type": "leaf",
+                "active": true,
+                "state": {
+                  "type": "markdown",
+                  "state": {
+                    "file": "数学/线性代数/README.md",
+                    "mode": "source"
+                  }
+                }
               }
-            },
-            "group": "e1a49305d705424b"
+            ],
+            "direction": "vertical"
           }
         ],
         "direction": "horizontal"
@@ -37,13 +55,13 @@
       {
         "id": "e3c42404d7b52953",
         "type": "leaf",
-        "dimension": 37.80918727915194,
+        "dimension": 29.66966966966967,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法/README.md",
-            "mode": "preview"
+            "file": "数学/线性代数.md",
+            "mode": "source"
           },
           "pinned": true
         },
@@ -87,7 +105,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 321
   },
   "right": {
     "id": "9693ea8741a3b2c4",
@@ -103,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "数学/线性代数/README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,15 +146,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "数学/线性代数/README.md",
     "算法/README.md",
-    "算法/算法问题.md",
-    "算法/数据结构/并查集.md",
     "数学/线性代数.md",
-    "数学/README.md",
-    "算法/算法.md",
-    "算法/排序组合.md",
-    "设计模式/Untitled.md",
-    "U3D/插件/UniRx.md",
-    "U3D/插件/Odin插件.md"
+    "数学/线性代数/矩阵的特征.md",
+    "数学/线性代数/对偶性.md",
+    "UE4/Untitled.md",
+    "数学/线性代数/基变换与相似矩阵.md",
+    "数学/线性代数/矩阵与线性变换.md",
+    "数学/线性代数/逆矩阵、列空间与秩.md",
+    "数学/线性代数/线性代数.md"
   ]
 }
