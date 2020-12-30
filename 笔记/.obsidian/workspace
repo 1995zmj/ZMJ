@@ -6,7 +6,7 @@
       {
         "id": "40df89468d420ec5",
         "type": "split",
-        "dimension": 56.46523716699156,
+        "dimension": 41.71539961013645,
         "children": [
           {
             "id": "fb9aed3b81002685",
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/线性代数/对偶性.md",
+                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
                 "mode": "source"
               }
             },
@@ -39,12 +39,12 @@
       {
         "id": "e3c42404d7b52953",
         "type": "leaf",
-        "dimension": 43.53476283300844,
+        "dimension": 58.28460038986355,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数学/线性代数/对偶性.md",
+            "file": "数学/线性代数/逆矩阵、列空间与秩.md",
             "mode": "preview"
           },
           "pinned": true
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/线性代数/对偶性.md",
+                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +130,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "数学/线性代数/对偶性.md",
-    "数学/线性代数.md",
-    "数学/线性代数/向量.md",
-    "算法/数据结构/并查集.md",
-    "数学/线性代数/行列式.md",
-    "数学/线性代数/线性代数.md",
-    "数学/线性代数/README.md",
-    "数学/线性代数/矩阵与线性变换.md",
     "数学/线性代数/逆矩阵、列空间与秩.md",
-    "数学/线性代数/基变换与相似矩阵.md"
+    "数学/线性代数/矩阵与线性变换.md",
+    "数学/线性代数/对偶性.md",
+    "数学/线性代数/基变换与相似矩阵.md",
+    "数学/线性代数/矩阵的特征.md",
+    "数学/线性代数/向量.md",
+    "数学/线性代数/行列式.md",
+    "数学/线性代数.md",
+    "算法/数据结构/并查集.md",
+    "数学/线性代数/线性代数.md"
   ]
 }
