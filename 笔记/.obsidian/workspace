@@ -11,7 +11,7 @@
           {
             "id": "fb9aed3b81002685",
             "type": "leaf",
-            "dimension": 61.044176706827315,
+            "dimension": 60.44176706827309,
             "pinned": true,
             "state": {
               "type": "graph",
@@ -22,12 +22,12 @@
           {
             "id": "4e05736c2f184207",
             "type": "leaf",
-            "dimension": 38.95582329317269,
+            "dimension": 39.558232931726906,
             "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
+                "file": "渲染相关/坐标变化.md",
                 "mode": "source"
               }
             },
@@ -44,7 +44,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数学/线性代数/逆矩阵、列空间与秩.md",
+            "file": "渲染相关/坐标变化.md",
             "mode": "preview"
           },
           "pinned": true
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
+                "file": "渲染相关/坐标变化.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +130,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "数学/线性代数/逆矩阵、列空间与秩.md",
-    "数学/线性代数/矩阵与线性变换.md",
+    "渲染相关/坐标变化.md",
+    "ImageToMarkdown/QQ20201230174344.png",
+    "ImageToMarkdown/QQ20201230191715.png",
+    "算法/数据结构/树状数组.md",
+    "算法/README.md",
+    "坐标变化.md",
     "数学/线性代数/对偶性.md",
     "数学/线性代数/基变换与相似矩阵.md",
     "数学/线性代数/矩阵的特征.md",
-    "数学/线性代数/向量.md",
-    "数学/线性代数/行列式.md",
-    "数学/线性代数.md",
-    "算法/数据结构/并查集.md",
-    "数学/线性代数/线性代数.md"
+    "渲染相关/克拉莫法则.md"
   ]
 }
