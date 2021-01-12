@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "渲染相关/坐标变化.md",
+                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
                 "mode": "source"
               }
             },
@@ -44,7 +44,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "渲染相关/坐标变化.md",
+            "file": "数学/线性代数/逆矩阵、列空间与秩.md",
             "mode": "preview"
           },
           "pinned": true
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "渲染相关/坐标变化.md",
+                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +130,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "渲染相关/坐标变化.md",
-    "ImageToMarkdown/QQ20201230174344.png",
-    "ImageToMarkdown/QQ20201230191715.png",
-    "算法/数据结构/树状数组.md",
-    "算法/README.md",
-    "坐标变化.md",
-    "数学/线性代数/对偶性.md",
-    "数学/线性代数/基变换与相似矩阵.md",
-    "数学/线性代数/矩阵的特征.md",
-    "渲染相关/克拉莫法则.md"
+    "数学/线性代数/逆矩阵、列空间与秩.md",
+    "数学/线性代数/三矢量的混合积.md",
+    "数学/线性代数/矩阵与线性变换.md",
+    "渲染相关/克拉莫法则.md",
+    "渲染相关/Moller Trumbore.md",
+    "着色.md",
+    "Untitled.md",
+    "抗锯齿.md",
+    "三矢量的混合积.md",
+    "msaa.md"
   ]
 }
