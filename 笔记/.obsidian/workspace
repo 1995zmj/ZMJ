@@ -6,7 +6,7 @@
       {
         "id": "40df89468d420ec5",
         "type": "split",
-        "dimension": 41.71539961013645,
+        "dimension": 36.71215074723847,
         "children": [
           {
             "id": "fb9aed3b81002685",
@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
+                "file": "渲染相关/Bresenham直线算法.md",
                 "mode": "source"
               }
             },
@@ -39,12 +39,12 @@
       {
         "id": "e3c42404d7b52953",
         "type": "leaf",
-        "dimension": 58.28460038986355,
+        "dimension": 63.28784925276153,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "数学/线性代数/逆矩阵、列空间与秩.md",
+            "file": "渲染相关/Bresenham直线算法.md",
             "mode": "preview"
           },
           "pinned": true
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "数学/线性代数/逆矩阵、列空间与秩.md",
+                "file": "渲染相关/Bresenham直线算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +130,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "数学/线性代数/逆矩阵、列空间与秩.md",
-    "数学/线性代数/三矢量的混合积.md",
-    "数学/线性代数/矩阵与线性变换.md",
-    "渲染相关/克拉莫法则.md",
+    "渲染相关/Bresenham直线算法.md",
     "渲染相关/Moller Trumbore.md",
-    "着色.md",
-    "Untitled.md",
-    "抗锯齿.md",
-    "三矢量的混合积.md",
-    "msaa.md"
+    "渲染相关/BVH.md",
+    "渲染相关/坐标变换.md",
+    "数学/线性代数/对偶性.md",
+    "渲染相关/Bresenham.md",
+    "数学/线性代数/三矢量的混合积.md",
+    "数学/线性代数/克拉莫法则.md",
+    "渲染相关/重心坐标.md",
+    "数学/线性代数/README.md"
   ]
 }
