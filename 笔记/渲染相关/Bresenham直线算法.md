@@ -1,5 +1,7 @@
 # Bresenham直线算法（布雷森汉姆算法）
+
 [参考](https://oldj.net/blog/2010/08/27/bresenham-algorithm)
+
 [视频教程](https://www.bilibili.com/video/BV1eE411p7tn?from=search&seid=3607722154107288400)
 
 ## 解决问题
@@ -15,7 +17,7 @@
 
 ### 先考虑简单情况，直线斜率大于0，小于等于1
 
-![](../ImageToMarkdown/QQ20210114191153.png)
+![avatar](../ImageToMarkdown/QQ20210114191153.png)
 
 ```C#
  void draw(int x1,int y1,int x2, int y2)
@@ -42,16 +44,19 @@
 
 ```
 
- 问题
+ 问题：
+ 
 * 只能在1/8圆的角度画直线
 * 使用了浮点数
 
 ### 去除小数
 
 同比例放大，都乘以一个2dx
+
 乘法只用乘2操作，可用位移运算代替
 
-![](../ImageToMarkdown/QQ20210114194411.png)
+![avatar](../ImageToMarkdown/QQ20210114194411.png)
+
 ```c#
 void draw(int x1,int y1,int x2, int y2)
 {
@@ -84,6 +89,7 @@ void draw(int x1,int y1,int x2, int y2)
 ```
 
 ### 全角度
+
 当终点坐标比七点坐标小时，更改增长符号
 
 当dx是短轴时，交换横纵轴，使dx永远指向长轴
