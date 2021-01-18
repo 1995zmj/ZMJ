@@ -27,7 +27,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "渲染相关/Bresenham直线算法.md",
+                "file": "渲染相关/坐标变换.md",
                 "mode": "source"
               }
             },
@@ -44,7 +44,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "渲染相关/Bresenham直线算法.md",
+            "file": "渲染相关/坐标变换.md",
             "mode": "preview"
           },
           "pinned": true
@@ -105,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "渲染相关/Bresenham直线算法.md",
+                "file": "渲染相关/坐标变换.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,15 +130,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "渲染相关/坐标变换.md",
     "渲染相关/Bresenham直线算法.md",
+    "渲染相关/重心坐标.md",
+    "渲染相关/斯涅尔定律.md",
+    "渲染相关/罗德里格旋转.md",
+    "渲染相关/抗锯齿.md",
     "渲染相关/Moller Trumbore.md",
     "渲染相关/BVH.md",
-    "渲染相关/坐标变换.md",
     "数学/线性代数/对偶性.md",
-    "渲染相关/Bresenham.md",
-    "数学/线性代数/三矢量的混合积.md",
-    "数学/线性代数/克拉莫法则.md",
-    "渲染相关/重心坐标.md",
-    "数学/线性代数/README.md"
+    "渲染相关/Bresenham.md"
   ]
 }
