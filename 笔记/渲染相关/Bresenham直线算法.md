@@ -15,7 +15,7 @@
 
 ### 先考虑简单情况，直线斜率大于0，小于等于1
 
-![](QQ20210114191153.png)
+![](../ImageToMarkdown/QQ20210114191153.png)
 
 ```C#
  void draw(int x1,int y1,int x2, int y2)
@@ -51,7 +51,7 @@
 同比例放大，都乘以一个2dx
 乘法只用乘2操作，可用位移运算代替
 
-![](QQ20210114194411.png)
+![](../ImageToMarkdown/QQ20210114194411.png)
 ```c#
 void draw(int x1,int y1,int x2, int y2)
 {
