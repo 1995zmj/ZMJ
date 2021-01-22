@@ -59,3 +59,9 @@ Vector3[] postions = new Vector3[3];
 path.ToArray()
 ```
 
+
+{% embed url="https://www.cnblogs.com/chenwolong/p/fanshe.html" %}
+
+# C\# Linq
+
+

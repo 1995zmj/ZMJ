@@ -1,30 +1,63 @@
 {
   "main": {
-    "id": "4dc1a118b70fa9a0",
+    "id": "d2f6e4af4f5c05c8",
     "type": "split",
     "children": [
       {
-        "id": "c776f59e7bd2f6b7",
+        "id": "3ce8f80dbe60418a",
+        "type": "split",
+        "dimension": 43.859649122807014,
+        "children": [
+          {
+            "id": "4d36fa0856d8027d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
+            }
+          },
+          {
+            "id": "b3e2b7dbc33ab2ec",
+            "type": "leaf",
+            "active": true,
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "算法/字符串/KMP算法.md",
+                "mode": "source"
+              }
+            },
+            "group": "5c9b353fc25d5d8b"
+          }
+        ],
+        "direction": "horizontal"
+      },
+      {
+        "id": "d364988ecc5f346e",
         "type": "leaf",
-        "active": true,
+        "dimension": 56.14035087719298,
         "state": {
-          "type": "empty",
-          "state": {}
-        }
+          "type": "markdown",
+          "state": {
+            "file": "算法/字符串/KMP算法.md",
+            "mode": "preview"
+          }
+        },
+        "group": "5c9b353fc25d5d8b"
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "e55c945c7a9446f5",
+    "id": "f9ca4f4d97088339",
     "type": "split",
     "children": [
       {
-        "id": "425ded6714380a32",
+        "id": "a1654035da978953",
         "type": "tabs",
         "children": [
           {
-            "id": "988c53cc5b2f0323",
+            "id": "09886b1682852f26",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -32,7 +65,7 @@
             }
           },
           {
-            "id": "0db4b4b1eaeb1f7b",
+            "id": "e6d2cb48a424d5a8",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -50,27 +83,39 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 321
   },
   "right": {
-    "id": "0b55ad2dcc300d66",
+    "id": "9693ea8741a3b2c4",
     "type": "split",
     "children": [
       {
-        "id": "bc5ce83b2c038c43",
+        "id": "6a9dfa01937c8b56",
         "type": "tabs",
         "children": [
           {
-            "id": "3f2fdb982dfd07a8",
+            "id": "62e7782baf76a6bb",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "算法/字符串/KMP算法.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
-                "backlinkCollapsed": false,
+                "backlinkCollapsed": true,
                 "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9a3e9224064645ae",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           }
@@ -78,19 +123,19 @@
       }
     ],
     "direction": "horizontal",
-    "width": 477,
+    "width": 300,
     "collapsed": true
   },
   "lastOpenFiles": [
-    "c#/TODO.md",
-    "c-1/todo.md",
-    "c#/Untitled.md",
-    "c-1/README.md",
-    "c-1/c-linq.md",
-    "c-1/c-fan-she-ji-zhi.md",
-    "SUMMARY.md",
-    "games102-ji-he-jian-mo-yu-chu-li.md",
-    "c++.md",
-    "bian-ji-qi.md"
+    "算法/字符串/KMP算法.md",
+    "算法/数据结构/种类并查集.md",
+    "算法/数据结构/并查集.md",
+    "算法/数据结构/树状数组.md",
+    "算法/数据结构/二叉堆.md",
+    "算法/数据结构/稀疏表.md",
+    "算法/README.md",
+    "算法/算法问题.md",
+    "稀疏表.md",
+    "Untitled.md"
   ]
 }
