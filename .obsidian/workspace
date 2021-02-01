@@ -4,7 +4,7 @@
     "type": "split",
     "children": [
       {
-        "id": "4329e72d8935de6c",
+        "id": "613040cc61b10e2e",
         "type": "split",
         "dimension": 43.859649122807014,
         "children": [
@@ -17,17 +17,16 @@
             }
           },
           {
-            "id": "3cd51ed9ebb9fb0d",
+            "id": "c4ba7b40fa3087b2",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/README.md",
+                "file": "渲染相关/透视校正插值.md",
                 "mode": "source"
               }
             },
-            "group": "77da4cc32fe86324"
+            "group": "ebc1bcd3cfff7304"
           }
         ],
         "direction": "horizontal"
@@ -36,14 +35,17 @@
         "id": "d364988ecc5f346e",
         "type": "leaf",
         "dimension": 56.14035087719298,
+        "active": true,
+        "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法/README.md",
+            "file": "渲染相关/透视校正插值.md",
             "mode": "preview"
-          }
+          },
+          "pinned": true
         },
-        "group": "77da4cc32fe86324"
+        "group": "ebc1bcd3cfff7304"
       }
     ],
     "direction": "vertical"
@@ -99,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/README.md",
+                "file": "渲染相关/透视校正插值.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,15 +129,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "算法/README.md",
-    "算法/排序/插入排序.md",
-    "算法/排序/快速排序.md",
-    "算法/排序/计数排序.md",
-    "算法/排序/基数排序.md",
-    "算法/排序/归并排序.md",
-    "算法/排序/堆排序.md",
-    "算法/排序/选择排序.md",
-    "算法/排序/希尔排序.md",
-    "算法/排序/桶排序.md"
+    "渲染相关/透视校正插值.md",
+    "渲染相关/法向量变换.md",
+    "渲染相关/重心坐标.md",
+    "数学/线性代数/逆矩阵、列空间与秩.md",
+    "数学/线性代数/三矢量的混合积.md",
+    "数学/线性代数/对偶性.md",
+    "数学/线性代数/README.md",
+    "数学/线性代数/行列式.md",
+    "数学/线性代数/向量.md",
+    "数学/线性代数/矩阵的特征.md"
   ]
 }
