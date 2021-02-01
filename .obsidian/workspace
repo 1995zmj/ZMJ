@@ -11,19 +11,19 @@
           {
             "id": "b3e2b7dbc33ab2ec",
             "type": "leaf",
+            "active": true,
             "state": {
-              "type": "empty",
+              "type": "graph",
               "state": {}
             }
           },
           {
             "id": "c4ba7b40fa3087b2",
             "type": "leaf",
-            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/排序组合.md",
+                "file": "U3D/C#/装箱和拆箱.md",
                 "mode": "source"
               }
             },
@@ -40,8 +40,8 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法/排序组合.md",
-            "mode": "source"
+            "file": "U3D/C#/装箱和拆箱.md",
+            "mode": "preview"
           },
           "pinned": true
         },
@@ -101,7 +101,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "算法/排序组合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,15 +128,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "算法/排序组合.md",
-    "算法/园内均匀随机点.md",
-    "算法/README.md",
-    "ImageToMarkdown/QQ20201230174344.png",
-    "ImageToMarkdown/QQ20201230191715.png",
-    "ImageToMarkdown/QQ20210113121317.png",
-    "ImageToMarkdown/QQ20210114191153.png",
-    "ImageToMarkdown/QQ20210114194411.png",
-    "ImageToMarkdown/QQ20210113121221.png",
-    "README.md"
+    "U3D/u3d-1/ui.md",
+    "U3D/C#/装箱和拆箱.md",
+    "U3D/u3d-1/addressable-assets-system.md",
+    "Untitled.md",
+    "U3D/C#/C#todo.md",
+    "U3D/RenderTexture.md",
+    "U3D/README.md",
+    "U3D/C#todo.md",
+    "U3D/UGUI/UGUI和特效的层级关系.md",
+    "U3D/UGUI/TextMeshPro.md"
   ]
 }
