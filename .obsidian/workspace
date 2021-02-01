@@ -12,17 +12,18 @@
             "id": "b3e2b7dbc33ab2ec",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           },
           {
             "id": "c4ba7b40fa3087b2",
             "type": "leaf",
+            "active": true,
             "state": {
               "type": "markdown",
               "state": {
-                "file": "渲染相关/透视校正插值.md",
+                "file": "算法/排序组合.md",
                 "mode": "source"
               }
             },
@@ -35,13 +36,12 @@
         "id": "d364988ecc5f346e",
         "type": "leaf",
         "dimension": 56.14035087719298,
-        "active": true,
         "pinned": true,
         "state": {
           "type": "markdown",
           "state": {
-            "file": "渲染相关/透视校正插值.md",
-            "mode": "preview"
+            "file": "算法/排序组合.md",
+            "mode": "source"
           },
           "pinned": true
         },
@@ -101,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "渲染相关/透视校正插值.md",
+                "file": "算法/排序组合.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,15 +129,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "渲染相关/透视校正插值.md",
-    "渲染相关/法向量变换.md",
-    "渲染相关/重心坐标.md",
-    "数学/线性代数/逆矩阵、列空间与秩.md",
-    "数学/线性代数/三矢量的混合积.md",
-    "数学/线性代数/对偶性.md",
-    "数学/线性代数/README.md",
-    "数学/线性代数/行列式.md",
-    "数学/线性代数/向量.md",
-    "数学/线性代数/矩阵的特征.md"
+    "算法/排序组合.md",
+    "算法/园内均匀随机点.md",
+    "算法/README.md",
+    "ImageToMarkdown/QQ20201230174344.png",
+    "ImageToMarkdown/QQ20201230191715.png",
+    "ImageToMarkdown/QQ20210113121317.png",
+    "ImageToMarkdown/QQ20210114191153.png",
+    "ImageToMarkdown/QQ20210114194411.png",
+    "ImageToMarkdown/QQ20210113121221.png",
+    "README.md"
   ]
 }
