@@ -13,8 +13,11 @@
             "type": "leaf",
             "active": true,
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "个人简历.md",
+                "mode": "source"
+              }
             }
           },
           {
@@ -23,7 +26,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "U3D/C#/装箱和拆箱.md",
+                "file": "个人简历.md",
                 "mode": "source"
               }
             },
@@ -40,7 +43,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "U3D/C#/装箱和拆箱.md",
+            "file": "个人简历.md",
             "mode": "preview"
           },
           "pinned": true
@@ -101,6 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "个人简历.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,15 +132,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
-    "U3D/u3d-1/ui.md",
-    "U3D/C#/装箱和拆箱.md",
-    "U3D/u3d-1/addressable-assets-system.md",
-    "Untitled.md",
-    "U3D/C#/C#todo.md",
+    "个人简历.md",
     "U3D/RenderTexture.md",
-    "U3D/README.md",
-    "U3D/C#todo.md",
+    "U3D/UGUI/Canvas.md",
+    "U3D/UGUI/TextMeshPro.md",
+    "U3D/UGUI/Mask.md",
     "U3D/UGUI/UGUI和特效的层级关系.md",
-    "U3D/UGUI/TextMeshPro.md"
+    "U3D/UGUI/总结.md",
+    "U3D/README.md",
+    "U3D/生命周期.md",
+    "UE4/README.md"
   ]
 }
