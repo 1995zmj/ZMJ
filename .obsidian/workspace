@@ -16,7 +16,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "杂项.md",
                 "mode": "source"
               }
             }
@@ -28,7 +28,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "算法/算法导论/第9章 中位数和顺序统计学.md",
+                "file": "U3D/UGUI/Canvas.md",
                 "mode": "source"
               }
             },
@@ -45,7 +45,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "算法/算法导论/第9章 中位数和顺序统计学.md",
+            "file": "U3D/UGUI/Canvas.md",
             "mode": "preview"
           },
           "pinned": true
@@ -106,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "杂项.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,15 +134,15 @@
     "collapsed": true
   },
   "lastOpenFiles": [
+    "杂项.md",
     "README.md",
-    "算法/算法导论/第9章 中位数和顺序统计学.md",
-    "算法/数据结构/二叉堆.md",
-    "算法/数据结构/单调栈.md",
-    "算法/数据结构/并查集.md",
-    "算法/数据结构/树状数组.md",
-    "算法/数据结构/稀疏表.md",
-    "算法/数据结构/种类并查集.md",
-    "算法/排序/插入排序.md",
-    "Untitled.md"
+    "数学/线性代数/克拉莫法则.md",
+    "数学/线性代数/矩阵的特征.md",
+    "数学/线性代数/对偶性.md",
+    "设计模式/Untitled.md",
+    "U3D/UGUI/Mask.md",
+    "U3D/UGUI/Canvas.md",
+    "U3D/UGUI/UGUI和特效的层级关系.md",
+    "U3D/RenderTexture.md"
   ]
 }
