@@ -12,3 +12,9 @@
 
 
 ## [中文技术文档的写作规范](https://github.com/ruanyf/document-style-guide)
+Streaming Usage is an option for every
+LevelStreamingVolume
+Streaming Levels can take a long time
+depending on its content
+Usage lets you set how loading and visibility
+is handled
