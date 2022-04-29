@@ -51,8 +51,17 @@
                 <mxCell id="14" value="设置tick的顺序" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
                     <mxGeometry x="-460" y="1030" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="16" value="" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
-                    <mxGeometry x="-470" y="1160" width="120" height="60" as="geometry"/>
+                <mxCell id="16" value="根据配置来获取移动相关数据" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                    <mxGeometry x="-460" y="1120" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="同步 期望状态到真实的状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                    <mxGeometry x="-460" y="1210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="18" value="步态，旋转，视角, 覆盖？？？" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                    <mxGeometry x="-300" y="1210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="旋转和视角互相影响" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                    <mxGeometry x="-310" y="1160" width="120" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
