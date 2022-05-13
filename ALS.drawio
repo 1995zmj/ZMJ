@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="eeYnPdOjBxcrUXloj9YK" name="AnimGraph">
-        <mxGraphModel dx="1953" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2689" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="B5qJrC7WR6L73SeEnvok-0"/>
                 <mxCell id="B5qJrC7WR6L73SeEnvok-1" parent="B5qJrC7WR6L73SeEnvok-0"/>
@@ -63,32 +63,44 @@
                 <mxCell id="20" value="旋转和视角互相影响" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-310" y="1160" width="120" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="21" value="初始化 目标旋转，上一次速度旋转，上一次移动输入旋转" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="21" value="初始化 目标旋转，上一次速度旋转，上一次移动输入旋转" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-460" y="1300" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="22" value="状态改变事件" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="22" value="状态改变事件" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-700" y="1440" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="23" value="MovementState&amp;nbsp; 状态值的改变是谁来改变的&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="23" value="MovementState&amp;nbsp; 状态值的改变是谁来改变的&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-765" y="1520" width="250" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="24" value="tick" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="24" value="tick" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-670" y="1600" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="25" value="更新关键信息，加速度，速度，旋转速度，输入量，旋转输入量，控制器的旋转" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="25" value="更新关键信息，加速度，速度，旋转速度，输入量，旋转输入量，控制器的旋转" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-490" y="1600" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="e8Rxan2dr6aCR0_dknnr-25" value="初始化" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="e8Rxan2dr6aCR0_dknnr-25" value="初始化" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-720" y="1850" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="e8Rxan2dr6aCR0_dknnr-26" value="关键节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="e8Rxan2dr6aCR0_dknnr-26" value="关键节点" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-710" y="1810" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="e8Rxan2dr6aCR0_dknnr-27" value="tick" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="e8Rxan2dr6aCR0_dknnr-27" value="tick" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-720" y="2020" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="e8Rxan2dr6aCR0_dknnr-28" value="移动模式改变" style="whiteSpace=wrap;html=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="e8Rxan2dr6aCR0_dknnr-28" value="移动模式改变" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-720" y="1940" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="PlayerCamerManager" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
+                    <mxGeometry x="-1000" y="2160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="PlayerController" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
+                    <mxGeometry x="-1180" y="2110" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="通过pawn 获取摄像机参数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
+                    <mxGeometry x="-1010" y="2130" width="160" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="主要是UI 和 确定 playerCamerManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
+                    <mxGeometry x="-1285" y="2080" width="230" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
@@ -304,39 +316,45 @@
         </mxGraphModel>
     </diagram>
     <diagram id="xGWQu2khxU5bmLNYGZXQ" name="摄像机">
-        <mxGraphModel dx="1013" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1035" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="YJN0HYux9fPUlZUmk54C-0"/>
                 <mxCell id="YJN0HYux9fPUlZUmk54C-1" parent="YJN0HYux9fPUlZUmk54C-0"/>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-3" value="EViewTargetBlendFunction" style="whiteSpace=wrap;html=1;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="20" y="100" width="120" height="60" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-3" value="EViewTargetBlendFunction" style="whiteSpace=wrap;html=1;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="14" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-4" value="过渡类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="30" y="60" width="60" height="20" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-4" value="过渡类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="24" y="170" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-6" value="FCameraCacheEntry" style="whiteSpace=wrap;html=1;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="250" y="90" width="120" height="60" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-6" value="FCameraCacheEntry" style="whiteSpace=wrap;html=1;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="244" y="200" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-7" value="缓存Pov信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="270" y="60" width="80" height="20" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-7" value="缓存Pov信息" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="264" y="170" width="80" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-8" value="FMinimalViewInfo" style="whiteSpace=wrap;html=1;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="250" y="-20" width="120" height="60" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-8" value="FMinimalViewInfo" style="whiteSpace=wrap;html=1;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="244" y="90" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-9" value="结构体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="265" y="-60" width="50" height="20" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-9" value="结构体" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="259" y="50" width="50" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-10" value="FTViewTarget" style="whiteSpace=wrap;html=1;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="450" y="100" width="120" height="60" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-10" value="FTViewTarget" style="whiteSpace=wrap;html=1;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="444" y="210" width="120" height="60" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-11" value="目标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="470" y="70" width="40" height="20" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-11" value="目标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="464" y="180" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-12" value="pawn，controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="535" y="80" width="110" height="20" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-12" value="pawn，controller" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="529" y="190" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="YJN0HYux9fPUlZUmk54C-13" value="FViewTargetTransitionParams" style="whiteSpace=wrap;html=1;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
-                    <mxGeometry x="700" y="80" width="120" height="60" as="geometry"/>
+                <mxCell id="YJN0HYux9fPUlZUmk54C-13" value="FViewTargetTransitionParams" style="whiteSpace=wrap;html=1;" parent="YJN0HYux9fPUlZUmk54C-1" vertex="1">
+                    <mxGeometry x="694" y="190" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FRrIdsLVQvXO3hxxx29m-0" value="PlayerController" style="whiteSpace=wrap;html=1;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
+                    <mxGeometry x="60" y="360" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="FRrIdsLVQvXO3hxxx29m-1" value="playerCameraManager" style="whiteSpace=wrap;html=1;" vertex="1" parent="YJN0HYux9fPUlZUmk54C-1">
+                    <mxGeometry x="210" y="350" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
