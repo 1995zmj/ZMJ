@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="qTPcVuKwp9ivYJZm04wb" name="第 1 页">
-        <mxGraphModel dx="1788" dy="1580" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1143" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -38,7 +38,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="-k2_nvyl8h7EHHhGBUQ3" name="智能指针">
-        <mxGraphModel dx="894" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="953" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-0"/>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-1" parent="6dMJGXCS0I9ftsZN87XB-0"/>
@@ -88,7 +88,7 @@
                     <mxGeometry x="235" y="-140" width="150" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-24" value="SharedPointer.h" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="6dMJGXCS0I9ftsZN87XB-1" vertex="1">
-                    <mxGeometry x="480" y="-138" width="100" height="20" as="geometry"/>
+                    <mxGeometry x="250" y="-190" width="100" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-25" value="FReferenceControllerOps" style="whiteSpace=wrap;html=1;" parent="6dMJGXCS0I9ftsZN87XB-1" vertex="1">
                     <mxGeometry x="1541" y="-20" width="120" height="60" as="geometry"/>
@@ -109,7 +109,7 @@
                     <mxGeometry x="1550" y="220" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-31" value="ReleaseSharedReference" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="6dMJGXCS0I9ftsZN87XB-1" vertex="1">
-                    <mxGeometry x="1541" y="320" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="1728" y="240" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-32" value="释放此计数器的共享引用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="6dMJGXCS0I9ftsZN87XB-1" vertex="1">
                     <mxGeometry x="1610" y="320" width="150" height="20" as="geometry"/>
@@ -189,11 +189,14 @@
                 <mxCell id="1cRRWxcr_63KirOseFlI-2" value="创建共享指针的时候 弱指针计算默认就是一，使用所有的弱指针都释放了，&lt;span&gt;FReferenceControllerBase 也不会销毁&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="6dMJGXCS0I9ftsZN87XB-1" vertex="1">
                     <mxGeometry x="1360" y="630" width="620" height="20" as="geometry"/>
                 </mxCell>
+                <mxCell id="BlxLOBnVYzQIej7-r9Dg-0" value="FWeakObjectPtr" style="whiteSpace=wrap;html=1;" vertex="1" parent="6dMJGXCS0I9ftsZN87XB-1">
+                    <mxGeometry x="90" y="-630" width="120" height="60" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="aIUz1MxtgsjlRokBSKJu" name="散列数组">
-        <mxGraphModel dx="1721" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1970" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-0"/>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-1" parent="PRGtmp1JzX0yJuuBO5fG-0"/>
