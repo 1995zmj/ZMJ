@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="qTPcVuKwp9ivYJZm04wb" name="第 1 页">
-        <mxGraphModel dx="1143" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1633" dy="1129" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -38,7 +38,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="-k2_nvyl8h7EHHhGBUQ3" name="智能指针">
-        <mxGraphModel dx="953" dy="1827" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1758" dy="2384" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-0"/>
                 <mxCell id="6dMJGXCS0I9ftsZN87XB-1" parent="6dMJGXCS0I9ftsZN87XB-0"/>
@@ -189,14 +189,14 @@
                 <mxCell id="1cRRWxcr_63KirOseFlI-2" value="创建共享指针的时候 弱指针计算默认就是一，使用所有的弱指针都释放了，&lt;span&gt;FReferenceControllerBase 也不会销毁&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="6dMJGXCS0I9ftsZN87XB-1" vertex="1">
                     <mxGeometry x="1360" y="630" width="620" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="BlxLOBnVYzQIej7-r9Dg-0" value="FWeakObjectPtr" style="whiteSpace=wrap;html=1;" vertex="1" parent="6dMJGXCS0I9ftsZN87XB-1">
+                <mxCell id="BlxLOBnVYzQIej7-r9Dg-0" value="FWeakObjectPtr" style="whiteSpace=wrap;html=1;" parent="6dMJGXCS0I9ftsZN87XB-1" vertex="1">
                     <mxGeometry x="90" y="-630" width="120" height="60" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="aIUz1MxtgsjlRokBSKJu" name="散列数组">
-        <mxGraphModel dx="1970" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2172" dy="929" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-0"/>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-1" parent="PRGtmp1JzX0yJuuBO5fG-0"/>
@@ -267,7 +267,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="X9rzrP645WGhMujLA_7q" name="Set 和 Map">
-        <mxGraphModel dx="2548" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2797" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="D0d5PBvJCMut8AnMBSer-0"/>
                 <mxCell id="D0d5PBvJCMut8AnMBSer-1" parent="D0d5PBvJCMut8AnMBSer-0"/>
@@ -381,6 +381,9 @@
                 </mxCell>
                 <mxCell id="BTWJStG8XdXqxUusA299-0" value="Add" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="D0d5PBvJCMut8AnMBSer-1" vertex="1">
                     <mxGeometry x="-220" y="890" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="pOCsoaWyi8sDh8F9jjVc-0" value="专门有文件去转换&amp;nbsp; TypeHash.h&lt;br&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="D0d5PBvJCMut8AnMBSer-1" vertex="1">
+                    <mxGeometry x="-1290" y="-150" width="180" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>

@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="eeYnPdOjBxcrUXloj9YK" name="Volume">
-        <mxGraphModel dx="2452" dy="2605" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1589" dy="1696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="B5qJrC7WR6L73SeEnvok-0"/>
                 <mxCell id="B5qJrC7WR6L73SeEnvok-1" parent="B5qJrC7WR6L73SeEnvok-0"/>
@@ -47,7 +47,7 @@
                     <mxGeometry x="380" y="270" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="17" value="SetShapeToNewGeom" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
-                    <mxGeometry x="504" y="280" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="540" y="260" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" value="FBodyInstance" style="whiteSpace=wrap;html=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="504" y="40" width="120" height="60" as="geometry"/>
