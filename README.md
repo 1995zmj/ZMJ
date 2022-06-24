@@ -18,3 +18,8 @@ Streaming Levels can take a long time
 depending on its content
 Usage lets you set how loading and visibility
 is handled
+
+```mermaid
+graph LR;
+	A -->B;
+```
