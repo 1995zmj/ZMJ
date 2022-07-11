@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="YHRaSuUu0spOmOLHsfdV" name="第 1 页">
+        <mxGraphModel dx="516" dy="599" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="动画蓝图 ABP" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="760" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="骨架" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="210" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="网格体" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="370" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="动画系列" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="570" y="220" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="物理" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="920" y="240" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Blendspace 混合空间（通过变量融合动画）" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                    <mxGeometry x="610" y="390" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Aim Offset" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="800" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
