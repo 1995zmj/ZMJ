@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="wWXeyH_oxTy1ao1TuzGQ" name="交互">
-        <mxGraphModel dx="2980" dy="2633" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2380" dy="1552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="9wz903eG9H3RRQY6BW-D-0"/>
                 <mxCell id="9wz903eG9H3RRQY6BW-D-1" parent="9wz903eG9H3RRQY6BW-D-0"/>
@@ -489,7 +489,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="K-lO7f8us_nF-_k51v59" name="第 5 页">
-        <mxGraphModel dx="5029" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="6779" dy="2893" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="fN66AimSWwqlOcoBHe-Y-0"/>
                 <mxCell id="fN66AimSWwqlOcoBHe-Y-1" parent="fN66AimSWwqlOcoBHe-Y-0"/>
@@ -810,7 +810,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="sdItC3aY3UwGkM5-yh0Y" name="第 4 页">
-        <mxGraphModel dx="2980" dy="6140" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2975" dy="5447" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="PS9rv9pm1K8zHsEF0Kkd-0"/>
                 <mxCell id="PS9rv9pm1K8zHsEF0Kkd-1" parent="PS9rv9pm1K8zHsEF0Kkd-0"/>
@@ -1319,7 +1319,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="8nHWC7Pi9Bg34HQvQEco" name="第 3 页">
-        <mxGraphModel dx="6124" dy="3950" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3054" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="WFu4HNpbeJOtdOxA1bmx-0"/>
                 <mxCell id="WFu4HNpbeJOtdOxA1bmx-1" parent="WFu4HNpbeJOtdOxA1bmx-0"/>
@@ -1696,7 +1696,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="-v2WkAPqOczHf399Q8Zu" name="第 1 页">
-        <mxGraphModel dx="3576" dy="4329" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1488" dy="2139" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -1775,6 +1775,69 @@
                 </mxCell>
                 <mxCell id="32" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #9cdcfe&quot;&gt;Notification&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="390" y="160" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-34" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;LevelUnitMgr&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="530" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-35" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;Tick&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="420" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-36" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;LevelUnit&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="620" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-37" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;LocalEvent&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="810" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-38" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;kSkillComponent&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="590" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-39" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;kUnitStateComponent&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="660" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-40" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;kLocalBuffComponent&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="730" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-41" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;LevelElement&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="960" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-43" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;kAttrComponent&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="610" y="940" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-44" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;TickMapComponent&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="1030" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-47" value="主要是判断是否进入交互" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="705" y="1050" width="150" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-48" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;LevelActorMgr&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="970" y="525" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-49" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;LuaTick&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="640" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-50" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #4ec9b0&quot;&gt;baseCopyMapComponent&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="940" y="640" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-51" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;TickDisplay&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="760" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-52" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;tickOpenAni&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="870" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-53" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;tickPlayMorphAni&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1110" y="980" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-54" value="&lt;div style=&quot;color: rgb(212 , 212 , 212) ; background-color: rgb(30 , 30 , 30) ; font-family: &amp;#34;consolas&amp;#34; , &amp;#34;courier new&amp;#34; , monospace ; font-size: 14px ; line-height: 19px&quot;&gt;&lt;span style=&quot;color: #dcdcaa&quot;&gt;LuaTickLogic&lt;/span&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1115" y="1089" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-55" value="主要是地板的问题" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1260" y="800" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-56" value="？？？ 现在是否有用" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1235" y="900" width="130" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="5mvJ0T3M0LPjewuGQer9-59" value="个个元素具体表现的tick" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+                    <mxGeometry x="1121" y="1200" width="120" height="80" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
