@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="OL5w7KWAqZH1ujzE3-b7" name="FRunnableThread">
-        <mxGraphModel dx="2347" dy="1293" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1960" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="isAYrwhy-H52g7SwMoGA-0"/>
                 <mxCell id="isAYrwhy-H52g7SwMoGA-1" parent="isAYrwhy-H52g7SwMoGA-0"/>
@@ -335,7 +335,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="50fCQiV0gB-i-ildV5lI" name="LockFree">
-        <mxGraphModel dx="2264" dy="470" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2787" dy="739" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="e1Mf8r0mwYbfAygjBUoI-0"/>
                 <mxCell id="e1Mf8r0mwYbfAygjBUoI-1" parent="e1Mf8r0mwYbfAygjBUoI-0"/>
@@ -491,7 +491,7 @@
                 <mxCell id="1ZHiqBrntH-qlK9wdilC-9" value="void* GetRawItem(uint32 Index)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ZHiqBrntH-qlK9wdilC-6" vertex="1">
                     <mxGeometry y="164" width="300" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-25" value="FORCEINLINE uint32 Alloc(uint32 Count = 1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="1ZHiqBrntH-qlK9wdilC-6">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-25" value="FORCEINLINE uint32 Alloc(uint32 Count = 1)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="1ZHiqBrntH-qlK9wdilC-6" vertex="1">
                     <mxGeometry y="190" width="300" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="1ZHiqBrntH-qlK9wdilC-11" value="创建块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
@@ -674,53 +674,53 @@
                 <mxCell id="4irTZvnO2peRmzsqqBXw-0" value="&lt;span style=&quot;text-align: left&quot;&gt;MasterState 位中是1 的话表示挂起 线程刚开始跑的时候会去拿任务，坑定是没有任务，所以都挂起了变成1了，&lt;br&gt;当有队列有任务进入的时候，去找挂起的，然后就去唤醒了&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;shadow=1;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="-1630" y="1065" width="610" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-9" value="全局" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-9" value="全局" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="-380" y="450" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-10" value="会通过&amp;nbsp;&lt;span style=&quot;font-weight: 700&quot;&gt;FLockFreeLinkPolicy 创造&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-10" value="会通过&amp;nbsp;&lt;span style=&quot;font-weight: 700&quot;&gt;FLockFreeLinkPolicy 创造&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="-430" y="1120" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-11" value="static LockFreeLinkAllocator_TLSCache GLockFreeLinkAllocator;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-11" value="static LockFreeLinkAllocator_TLSCache GLockFreeLinkAllocator;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="-20" y="450" width="360" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-12" value="全局 变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-12" value="全局 变量" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="70" y="420" width="70" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-14" value="可以看成代理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-14" value="可以看成代理" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="-300" y="451" width="90" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-15" value="里面包含内存&lt;span&gt;分配器&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;TLockFreeAllocOnceIndexedAllocator&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&amp;nbsp;和 缓存池&lt;span style=&quot;font-weight: 700&quot;&gt;LockFreeLinkAllocator_TLSCache&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-15" value="里面包含内存&lt;span&gt;分配器&lt;/span&gt;&lt;span style=&quot;font-weight: 700&quot;&gt;TLockFreeAllocOnceIndexedAllocator&lt;/span&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&amp;nbsp;和 缓存池&lt;span style=&quot;font-weight: 700&quot;&gt;LockFreeLinkAllocator_TLSCache&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="-360" y="415" width="340" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-16" value="获取内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-16" value="获取内存" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="310" y="360" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-26" value="新加元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-26" value="新加元素" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="300" y="380" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-27" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="e1Mf8r0mwYbfAygjBUoI-1" source="1ZHiqBrntH-qlK9wdilC-9" target="1ZHiqBrntH-qlK9wdilC-13">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-27" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="e1Mf8r0mwYbfAygjBUoI-1" source="1ZHiqBrntH-qlK9wdilC-9" target="1ZHiqBrntH-qlK9wdilC-13" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-28" value="LockFreeFreeLinks" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-28" value="LockFreeFreeLinks" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;shadow=1;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="840" y="360" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-29" value="销毁模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-29" value="销毁模块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="780" y="386" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-30" value="进程销毁的时候才会销毁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-30" value="进程销毁的时候才会销毁" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="730" y="190" width="150" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-31" value="每次都会申请一块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-31" value="每次都会申请一块" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="710" y="260" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-32" value="构造时候回去进程种申请，析构的时候还" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="e1Mf8r0mwYbfAygjBUoI-1">
+                <mxCell id="l-_4eF3ZW6IYYFmvHP_I-32" value="构造时候回去进程种申请，析构的时候还" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="e1Mf8r0mwYbfAygjBUoI-1" vertex="1">
                     <mxGeometry x="90" y="540" width="230" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="ikN4JAeyz4AXgLbRlcF4" name="QueuedThread">
-        <mxGraphModel dx="85" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="573" dy="913" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="9nzB73cxVJaCmKrEPqLU-0"/>
                 <mxCell id="9nzB73cxVJaCmKrEPqLU-1" parent="9nzB73cxVJaCmKrEPqLU-0"/>
@@ -922,7 +922,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Rbrb_GG4mWS-E6h8k3hC" name="TaskGraph">
-        <mxGraphModel dx="4260" dy="3386" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2844" dy="1945" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="135QSkauRPFvvGFmHh0P-0"/>
                 <mxCell id="135QSkauRPFvvGFmHh0P-1" parent="135QSkauRPFvvGFmHh0P-0"/>
@@ -1727,58 +1727,58 @@
                 <mxCell id="6MeHZCwIGx34U3tiiv7h-2" value="有两个优先级的 队列（队列da）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="1965" y="-270" width="190" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-0" value="还有一个状态指针每一位表示一个线程， （最多只有26，通常状态下只用 14 个）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-0" value="还有一个状态指针每一位表示一个线程， （最多只有26，通常状态下只用 14 个）" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="1796" y="-240" width="450" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-1" value="ENamedThreads::Type(IndexToStart + Priority * NumTaskThreadsPerSet + NumNamedThreads);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-1" value="ENamedThreads::Type(IndexToStart + Priority * NumTaskThreadsPerSet + NumNamedThreads);" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="1755" y="-180" width="530" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-3" value="因为队列有一个状态指针表示全部线程工作的情况，不同优先级线程在这个标志下只有一个工作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-3" value="因为队列有一个状态指针表示全部线程工作的情况，不同优先级线程在这个标志下只有一个工作" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="1650" y="-200" width="520" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-4" value="WakeUp" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-4" value="WakeUp" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="1880" y="309.16" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-6" value="内部函数调用系统查找工作。从这个线程调用。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-6" value="内部函数调用系统查找工作。从这个线程调用。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="-285" y="830" width="270" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-7" value="事件，该线程在工作耗尽时阻塞。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-7" value="事件，该线程在工作耗尽时阻塞。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="-280" y="930" width="200" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-8" value="我们需要禁止重新进入处理循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-8" value="我们需要禁止重新进入处理循环" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="-280" y="955" width="180" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-9" value="指示我们执行了一个返回任务，因此跳出处理循环。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-9" value="指示我们执行了一个返回任务，因此跳出处理循环。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="-370" y="985" width="290" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-10" value="我们应该暂停调音吗?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-10" value="我们应该暂停调音吗?" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="-230" y="1016" width="130" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-11" value="对单个队列的数据进行分组。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-11" value="对单个队列的数据进行分组。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="-145" y="880" width="170" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-12" value="这个类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-12" value="这个类型" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="1950" y="-290" width="60" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-13" value="Execute" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-13" value="Execute" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="110" y="1240" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-14" value="&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;处理任务，直到空闲。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;如果bAllowStall为True，则可能阻止&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-14" value="&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;处理任务，直到空闲。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;如果bAllowStall为True，则可能阻止&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="-335" y="1190" width="430" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-15" value="FBaseGraphTask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-15" value="FBaseGraphTask" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="110" y="1210" width="110" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-16" value="ExecuteTask" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-16" value="ExecuteTask" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="305" y="1230" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-17" value="&lt;div&gt;DispatchSubsequents&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-17" value="&lt;div&gt;DispatchSubsequents&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="510" y="1230" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-18" value="&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;表示已完成先决条件。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;将先决条件数减一，&lt;br&gt;如果没有未完成的先决条件，则将任务排队以供执行。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-18" value="&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;表示已完成先决条件。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;将先决条件数减一，&lt;br&gt;如果没有未完成的先决条件，则将任务排队以供执行。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="1345" y="736.5" width="400" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="deXs_2g2xI_rKeGKmOs9-19" value="&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;完成”活动。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;这将获取子序列列表并自动关闭它。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;然后，对于后续的每个任务，&lt;br&gt;它会减少未完成的先决条件的数量，如果该数量降至零，则该任务将排队。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="135QSkauRPFvvGFmHh0P-1">
+                <mxCell id="deXs_2g2xI_rKeGKmOs9-19" value="&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;完成”活动。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;这将获取子序列列表并自动关闭它。&lt;/span&gt;&lt;span class=&quot;text-dst&quot; style=&quot;margin: 0px ; padding: 0px ; border: 0px ; outline: 0px ; font-size: 16px ; vertical-align: baseline ; background: rgb(255 , 255 , 255) ; color: rgb(0 , 0 , 0) ; font-family: , &amp;#34;microsoft yahei&amp;#34; , &amp;#34;\\5fae软雅黑&amp;#34; , sans-serif&quot;&gt;然后，对于后续的每个任务，&lt;br&gt;它会减少未完成的先决条件的数量，如果该数量降至零，则该任务将排队。&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="135QSkauRPFvvGFmHh0P-1" vertex="1">
                     <mxGeometry x="440" y="1180" width="560" height="40" as="geometry"/>
                 </mxCell>
             </root>
