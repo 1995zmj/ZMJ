@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="eeYnPdOjBxcrUXloj9YK" name="AnimGraph">
-        <mxGraphModel dx="2647" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3898" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="B5qJrC7WR6L73SeEnvok-0"/>
                 <mxCell id="B5qJrC7WR6L73SeEnvok-1" parent="B5qJrC7WR6L73SeEnvok-0"/>
@@ -102,20 +102,20 @@
                 <mxCell id="31" value="主要是UI 和 确定 playerCamerManager" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-1285" y="2080" width="230" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="32" value="Weight_Gait" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="32" value="Weight_Gait" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-1530" y="1500" width="120" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="33" value="曲线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="33" value="曲线" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-1560" y="1470" width="40" height="20" as="geometry"/>
                 </mxCell>
-                <mxCell id="34" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="B5qJrC7WR6L73SeEnvok-1">
+                <mxCell id="34" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="B5qJrC7WR6L73SeEnvok-1" vertex="1">
                     <mxGeometry x="-1400" y="1530" width="40" height="20" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="bfblRV6Eddm99f9R87DZ" name="BaseLayer">
-        <mxGraphModel dx="894" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1122" dy="556" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="GAKmFzTFg5vipR8J0O0f-0"/>
                 <mxCell id="GAKmFzTFg5vipR8J0O0f-1" parent="GAKmFzTFg5vipR8J0O0f-0"/>
@@ -126,7 +126,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="bI75s0k8vxyd0X6ulItG" name="移动组件">
-        <mxGraphModel dx="863" dy="658" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="898" dy="445" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="J5CT54GBW4Jlt9EO4jgV-0"/>
                 <mxCell id="J5CT54GBW4Jlt9EO4jgV-1" parent="J5CT54GBW4Jlt9EO4jgV-0"/>
@@ -155,7 +155,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="M2iByLiVTACOOFbm_Ffg" name="第 4 页">
-        <mxGraphModel dx="894" dy="1959" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1122" dy="1725" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="9x4F-eVVfo7EvnVQn5qE-0"/>
                 <mxCell id="9x4F-eVVfo7EvnVQn5qE-1" parent="9x4F-eVVfo7EvnVQn5qE-0"/>
@@ -325,7 +325,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="xGWQu2khxU5bmLNYGZXQ" name="摄像机">
-        <mxGraphModel dx="1625" dy="1436" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3206" dy="1589" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="YJN0HYux9fPUlZUmk54C-0"/>
                 <mxCell id="YJN0HYux9fPUlZUmk54C-1" parent="YJN0HYux9fPUlZUmk54C-0"/>
