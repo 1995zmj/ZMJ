@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="qTPcVuKwp9ivYJZm04wb" name="概况">
-        <mxGraphModel dx="1907" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2698" dy="2251" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -171,7 +171,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="Dn8YD0j0zeCRZnQnaciP" name="官方RPG思路">
-        <mxGraphModel dx="1137" dy="1826" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2058" dy="2359" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="-YvzQ3wBEwrn5XlmwnoC-0"/>
                 <mxCell id="-YvzQ3wBEwrn5XlmwnoC-1" parent="-YvzQ3wBEwrn5XlmwnoC-0"/>
@@ -460,17 +460,17 @@
                 <mxCell id="0TDgJPh7v9OLXZvExLiB-7" value="UGameplayAbility" style="text;whiteSpace=wrap;html=1;" parent="-YvzQ3wBEwrn5XlmwnoC-1" vertex="1">
                     <mxGeometry x="2880" y="1120" width="120" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Fik7OSXZqgH6-lMujg7G-0" value="&lt;div&gt;* Struct定义了游戏效果，标签和目标信息的列表&lt;/div&gt;&lt;div&gt;*这些容器在蓝图或资产中静态定义，然后在运行时转换为Specs&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-YvzQ3wBEwrn5XlmwnoC-1">
+                <mxCell id="Fik7OSXZqgH6-lMujg7G-0" value="&lt;div&gt;* Struct定义了游戏效果，标签和目标信息的列表&lt;/div&gt;&lt;div&gt;*这些容器在蓝图或资产中静态定义，然后在运行时转换为Specs&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-YvzQ3wBEwrn5XlmwnoC-1" vertex="1">
                     <mxGeometry x="2580" y="620" width="360" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="Fik7OSXZqgH6-lMujg7G-1" value="这个算是一个方法，如何获取目标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-YvzQ3wBEwrn5XlmwnoC-1">
+                <mxCell id="Fik7OSXZqgH6-lMujg7G-1" value="这个算是一个方法，如何获取目标" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-YvzQ3wBEwrn5XlmwnoC-1" vertex="1">
                     <mxGeometry x="2730" y="700" width="200" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="XpEDep1fThdQtdH3oPbM" name="ASC">
-        <mxGraphModel dx="6801" dy="3665" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="3416" dy="1710" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-0"/>
                 <mxCell id="-4jIvJIA9d3lIVQqnTIh-1" parent="-4jIvJIA9d3lIVQqnTIh-0"/>
@@ -1186,7 +1186,7 @@
                     <mxGeometry x="1310" y="1830" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="F9JEzj-52rSRwk7YmPWO-2" value="判断是否有锁&amp;nbsp;&amp;nbsp;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="1490" y="1815" width="100" height="30" as="geometry"/>
+                    <mxGeometry x="1534" y="1800" width="100" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="F9JEzj-52rSRwk7YmPWO-3" value="ActivatableAbilities" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
                     <mxGeometry x="1630" y="1850" width="120" height="80" as="geometry"/>
@@ -1195,7 +1195,7 @@
                     <mxGeometry x="1640" y="1740" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="F9JEzj-52rSRwk7YmPWO-5" value="放到不同的容器里" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="1590" y="1820" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="1610" y="1820" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="F9JEzj-52rSRwk7YmPWO-6" value="OnGiveAbility" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
                     <mxGeometry x="1806" y="1850" width="120" height="80" as="geometry"/>
@@ -1216,7 +1216,7 @@
                     <mxGeometry x="2220" y="1890" width="470" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="F9JEzj-52rSRwk7YmPWO-12" value="如果绑定过就忽略" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
-                    <mxGeometry x="2500" y="1935" width="120" height="30" as="geometry"/>
+                    <mxGeometry x="2550" y="1950" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="F9JEzj-52rSRwk7YmPWO-13" value="&lt;div&gt;OnGiveAbility&lt;br&gt;&lt;/div&gt;" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="-4jIvJIA9d3lIVQqnTIh-1" vertex="1">
                     <mxGeometry x="2760" y="1870" width="120" height="80" as="geometry"/>
@@ -1872,6 +1872,18 @@
                 <mxCell id="Xcnfk4na2zJ-Jn-Q1J-f-14" value="+ field: type" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="Xcnfk4na2zJ-Jn-Q1J-f-11" vertex="1">
                     <mxGeometry y="78" width="260" height="26" as="geometry"/>
                 </mxCell>
+                <mxCell id="oQ6CgNydWu8m1DfyT8nE-0" value="GiveAbility" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1390" y="1845" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="oQ6CgNydWu8m1DfyT8nE-5" value="MonitoredTagChanged" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="2560" y="1980" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="oQ6CgNydWu8m1DfyT8nE-6" value="收到消息的回调" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="2565" y="2055" width="110" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="oQ6CgNydWu8m1DfyT8nE-7" value="有锁放到临时的容器中" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="-4jIvJIA9d3lIVQqnTIh-1">
+                    <mxGeometry x="1655" y="1710" width="140" height="30" as="geometry"/>
+                </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
@@ -2258,7 +2270,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="BSdzsB7TzfeZGKPlb09K" name="GamePlayTag">
-        <mxGraphModel dx="4030" dy="1248" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2865" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="PDMpRTKKTmaykIHdqwZm-0"/>
                 <mxCell id="PDMpRTKKTmaykIHdqwZm-1" parent="PDMpRTKKTmaykIHdqwZm-0"/>
@@ -2358,7 +2370,7 @@
                 <mxCell id="mraz-3IrOGk1yteGC5KJ-0" value="TMap&lt;FGameplayTag, int32&gt; GameplayTagCountMap;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4liXPxwncg-SxU6QiOnx-17" vertex="1">
                     <mxGeometry y="52" width="398" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="sVL1rNO3eYtW_KVoiZzs-4" value="TMap&lt;FGameplayTag, int32&gt; GameplayTagCountMap;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4liXPxwncg-SxU6QiOnx-17">
+                <mxCell id="sVL1rNO3eYtW_KVoiZzs-4" value="TMap&lt;FGameplayTag, int32&gt; GameplayTagCountMap;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4liXPxwncg-SxU6QiOnx-17" vertex="1">
                     <mxGeometry y="78" width="398" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="4liXPxwncg-SxU6QiOnx-19" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" parent="4liXPxwncg-SxU6QiOnx-17" vertex="1">
@@ -2367,7 +2379,7 @@
                 <mxCell id="4liXPxwncg-SxU6QiOnx-20" value="FOnGameplayEffectTagCountChanged&amp; RegisterGameplayTagEvent(const FGameplayTag&amp; Tag, EGameplayTagEventType::Type EventType=EGameplayTagEventType::NewOrRemoved);" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4liXPxwncg-SxU6QiOnx-17" vertex="1">
                     <mxGeometry y="112" width="398" height="26" as="geometry"/>
                 </mxCell>
-                <mxCell id="sVL1rNO3eYtW_KVoiZzs-0" value="const FGameplayTagContainer&amp; GetExplicitGameplayTags() const" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="4liXPxwncg-SxU6QiOnx-17">
+                <mxCell id="sVL1rNO3eYtW_KVoiZzs-0" value="const FGameplayTagContainer&amp; GetExplicitGameplayTags() const" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="4liXPxwncg-SxU6QiOnx-17" vertex="1">
                     <mxGeometry y="138" width="398" height="26" as="geometry"/>
                 </mxCell>
                 <mxCell id="4liXPxwncg-SxU6QiOnx-21" value="&lt;div&gt;用于跟踪其中标签应用程序的数量/计数。显式跟踪添加或删除的标记，&lt;/div&gt;&lt;div&gt;*同时跟踪父标签的计数。每当标记计数时就触发事件/委托&lt;/div&gt;&lt;div&gt;*的任何标记(显式或父)被修改。&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
@@ -2502,20 +2514,20 @@
                 <mxCell id="mraz-3IrOGk1yteGC5KJ-2" value="要委托的标记的映射，&lt;br&gt;当键标记的计数更改为零或不再为零时将触发该映射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="222" y="701" width="300" height="40" as="geometry"/>
                 </mxCell>
-                <mxCell id="sVL1rNO3eYtW_KVoiZzs-2" value="标签改变的事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="sVL1rNO3eYtW_KVoiZzs-2" value="标签改变的事件" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="410" y="800" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="sVL1rNO3eYtW_KVoiZzs-3" value="获取标签" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="sVL1rNO3eYtW_KVoiZzs-3" value="获取标签" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="440" y="830" width="70" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="sVL1rNO3eYtW_KVoiZzs-5" value="容器中包含显式添加的标记" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="PDMpRTKKTmaykIHdqwZm-1">
+                <mxCell id="sVL1rNO3eYtW_KVoiZzs-5" value="容器中包含显式添加的标记" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PDMpRTKKTmaykIHdqwZm-1" vertex="1">
                     <mxGeometry x="340" y="765" width="170" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="Z1tYeI4GBE6s50S7vACv" name="AttributeSet">
-        <mxGraphModel dx="2683" dy="1763" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="2634" dy="1736" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="LevZotMznbj1cVnadFQh-0"/>
                 <mxCell id="LevZotMznbj1cVnadFQh-1" parent="LevZotMznbj1cVnadFQh-0"/>
@@ -2810,20 +2822,20 @@
                 <mxCell id="fYrITQ0xjTwpg7Wzr430-6" value="玩法属性的来源" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LevZotMznbj1cVnadFQh-1" vertex="1">
                     <mxGeometry x="-1280" y="650" width="110" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ol-kf0Z4fB5R3-D71XGf-0" value="第三种 通过表格&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;asc&amp;nbsp; 在OnRegister函数中&lt;br&gt;通过变量&amp;nbsp;DefaultStartingData 使用&amp;nbsp;GetOrCreateAttributeSubobject 来创建属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                <mxCell id="Ol-kf0Z4fB5R3-D71XGf-0" value="第三种 通过表格&lt;br&gt;&amp;nbsp;&lt;br&gt;&lt;br&gt;asc&amp;nbsp; 在OnRegister函数中&lt;br&gt;通过变量&amp;nbsp;DefaultStartingData 使用&amp;nbsp;GetOrCreateAttributeSubobject 来创建属性" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LevZotMznbj1cVnadFQh-1" vertex="1">
                     <mxGeometry x="-1390" y="875" width="440" height="90" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ol-kf0Z4fB5R3-D71XGf-1" value="&amp;nbsp;UAbilitySystemComponent::GetGameplayAttributeValueChangeDelegate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                <mxCell id="Ol-kf0Z4fB5R3-D71XGf-1" value="&amp;nbsp;UAbilitySystemComponent::GetGameplayAttributeValueChangeDelegate" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LevZotMznbj1cVnadFQh-1" vertex="1">
                     <mxGeometry x="-165" y="1075" width="410" height="30" as="geometry"/>
                 </mxCell>
-                <mxCell id="Ol-kf0Z4fB5R3-D71XGf-2" value="这里可以监听属性的变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="LevZotMznbj1cVnadFQh-1">
+                <mxCell id="Ol-kf0Z4fB5R3-D71XGf-2" value="这里可以监听属性的变化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="LevZotMznbj1cVnadFQh-1" vertex="1">
                     <mxGeometry x="210" y="1075" width="160" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
     </diagram>
     <diagram id="wq_htuL9XIsYNzcytwPu" name="GamePlayTask">
-        <mxGraphModel dx="1766" dy="543" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1415" dy="340" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="_Zz50gURGPLTKjzgj0c9-0"/>
                 <mxCell id="_Zz50gURGPLTKjzgj0c9-1" parent="_Zz50gURGPLTKjzgj0c9-0"/>
