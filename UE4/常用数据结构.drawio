@@ -1,6 +1,6 @@
 <mxfile host="65bd71144e">
     <diagram id="QcSrlYmEOJeIjFpcHWHf" name="数组">
-        <mxGraphModel dx="1442" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="948" dy="608" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="pOiSYCZk9DxUySAxYVqE-0"/>
                 <mxCell id="pOiSYCZk9DxUySAxYVqE-1" parent="pOiSYCZk9DxUySAxYVqE-0"/>
@@ -17,7 +17,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="aIUz1MxtgsjlRokBSKJu" name="散列数组">
-        <mxGraphModel dx="937" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="990" dy="520" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-0"/>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-1" parent="PRGtmp1JzX0yJuuBO5fG-0"/>
@@ -46,7 +46,7 @@
                     <mxGeometry x="292.5" y="900" width="80" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-16" value="AllocateIndex" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="PRGtmp1JzX0yJuuBO5fG-1" vertex="1">
-                    <mxGeometry x="532.5" y="730" width="120" height="80" as="geometry"/>
+                    <mxGeometry x="552.5" y="720" width="120" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="PRGtmp1JzX0yJuuBO5fG-17" value="将索引标记为已分配，并返回有关分配的信息。" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="PRGtmp1JzX0yJuuBO5fG-1" vertex="1">
                     <mxGeometry x="532.5" y="690" width="270" height="20" as="geometry"/>
@@ -130,7 +130,7 @@
         </mxGraphModel>
     </diagram>
     <diagram id="X9rzrP645WGhMujLA_7q" name="Set 和 Map">
-        <mxGraphModel dx="937" dy="776" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="451" dy="290" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="D0d5PBvJCMut8AnMBSer-0"/>
                 <mxCell id="D0d5PBvJCMut8AnMBSer-1" parent="D0d5PBvJCMut8AnMBSer-0"/>
@@ -271,6 +271,21 @@
                 </mxCell>
                 <mxCell id="r0nYEZfcRvNP4G7jGjAI-11" value="TMap 存的是键值对 哈希映射的时候用键来映射" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="D0d5PBvJCMut8AnMBSer-1" vertex="1">
                     <mxGeometry x="65" y="326" width="270" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="Rq_ZDUXLtBXQZRdtWOof-0" value="先从&amp;nbsp;&lt;span style=&quot;text-align: left;&quot;&gt;Elements 中拿出空的位置先创建出来 （ 这一块可以看散列数组）&lt;br&gt;通过一个工具把内容转到一个hash值（这里可以自定义）&lt;br&gt;变量Hash其实是个数组 对应 具体的hash值，如果有冲突，就在这个单位形成链（这里的链只是表述。实际上还只是一个数组，&lt;br&gt;用HashNextId来转向下一个散列数组中的id）&lt;br&gt;&lt;br&gt;&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="D0d5PBvJCMut8AnMBSer-1" vertex="1">
+                    <mxGeometry x="1180" y="440" width="700" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="Rq_ZDUXLtBXQZRdtWOof-1" value="Emplace" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="D0d5PBvJCMut8AnMBSer-1" vertex="1">
+                    <mxGeometry x="1241" y="700" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Rq_ZDUXLtBXQZRdtWOof-2" value="EmplaceImpl" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="D0d5PBvJCMut8AnMBSer-1" vertex="1">
+                    <mxGeometry x="1410" y="700" width="120" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="Rq_ZDUXLtBXQZRdtWOof-3" value="Set中的Hash 其实就是一个&amp;nbsp; 哈希对应数组下表的一个数组" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="D0d5PBvJCMut8AnMBSer-1" vertex="1">
+                    <mxGeometry x="1350" y="555" width="330" height="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="A7_tK3OO2i6ImXI7IkPl-0" value="Text" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="D0d5PBvJCMut8AnMBSer-1">
+                    <mxGeometry x="535" y="1035" width="50" height="30" as="geometry"/>
                 </mxCell>
             </root>
         </mxGraphModel>
