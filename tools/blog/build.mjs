@@ -27,6 +27,6 @@ const articles = files.map(file => {
   }});
   const text = sanitizeHtml(html, {allowedTags:[], allowedAttributes:{}}).replace(/\s+/g,' ').trim();
   return {id:file, title, category:file.includes('/') ? file.split('/')[0] : '其他', date: dates.get(file) || git('log','-1','--format=%cs','--',file).trim(), summary:text.slice(0,120), text, html, url:`https://github.com/1995zmj/ZMJ/blob/master/${file.split('/').map(encodeURIComponent).join('/')}`};
-}).sort((a,b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title,'zh-CN'));
+}).filter(article => article.html.trim()).sort((a,b) => b.date.localeCompare(a.date) || a.title.localeCompare(b.title,'zh-CN'));
 writeFileSync(path.join(root,'docs/articles.js'), `window.BLOG_ARTICLES = ${JSON.stringify(articles).replace(/</g,'\\u003c')};\n`);
 console.log(`Generated ${articles.length} articles across ${new Set(articles.map(a=>a.category)).size} categories.`);
