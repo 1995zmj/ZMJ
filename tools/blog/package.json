@@ -1,1 +1,1 @@
-{"private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"marked":"15.0.12","sanitize-html":"2.17.0"}}
+{"private":true,"type":"module","scripts":{"build":"node build.mjs"},"dependencies":{"katex":"0.16.22","marked":"15.0.12","sanitize-html":"2.17.0"}}
